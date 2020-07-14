@@ -178,9 +178,9 @@ Task List
     ============= =========== ============================================== =========================== ============================
      Number        Directory   Task                                           Owner                       Status
     ============= =========== ============================================== =========================== ============================
-     20200713-01   /           relocate files according to new project tree   Huang Leilei                **Not Started @ 20200712**
-     20200713-02   build/      maintain                                       Huang Leilei, Shi Chunxin   **Not Started @ 20200712**
-     20200713-03   script/     maintain                                       Huang Leilei                **Not Started @ 20200712**
-     20200713-04   src/sys/    tidy up macro-definitions                      Huang Leilei                **Not Started @ 20200712**
-     20200713-05   src/sys/    tidy up parameters                             Huang Leilei, Shi Chunxin   **Not Started @ 20200712**
+     20200713-01   /           relocate files according to new project tree   Huang Leilei                Done @ 20200714
+     20200713-02   build/      maintain                                       Huang Leilei, Shi Chunxin   Done @ 20200714
+     20200713-03   script/     maintain                                       Huang Leilei                Done @ 20200714
+     20200713-04   src/sys/    tidy up macro-definitions                      Huang Leilei                **Undergoing @ 20200714**
+     20200713-05   src/sys/    tidy up parameters                             Huang Leilei, Shi Chunxin   **Undergoing @ 20200714**
     ============= =========== ============================================== =========================== ============================
