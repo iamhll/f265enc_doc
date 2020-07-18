@@ -11,6 +11,7 @@ Welcome to f265enc's documentation!
     :caption: Contents:
 
     introduction/main
+    version_control/main
     script_usage/main
     coding_style/main
     template/main
