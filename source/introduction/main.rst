@@ -170,5 +170,6 @@ Task List
      20200717-02   src/sys/    update according to cfg_typ.hpp                Shi Chunxin                 20200717 -> 20200717
      20200717-03   src/sys/    update according to cfg_typ.hpp                Hao Zhijian                 **Not Started**
      20200717-04   src/sys/    update according to cfg_typ.hpp                Li Tinging                  **Not Started**
+     20200718-01               perpare some instruction on version control    Huang Leilei                20200718 -> 20200719
      20200720-01   src/sys/    perpare cfg.pl                                 Huang Leilei                **Not Started**
     ============= =========== ============================================== =========================== ==========================
