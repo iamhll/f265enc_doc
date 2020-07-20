@@ -157,19 +157,19 @@ Task List
     :align: left
     :widths: auto
 
-    ============= =========== ============================================== =========================== ==========================
-     Number        Directory   Task                                           Owner                       Status
-    ============= =========== ============================================== =========================== ==========================
-     20200713-01   /           relocate files according to new project tree   Huang Leilei                20200713 -> 20200714
-     20200713-02   build/      maintain                                       Huang Leilei, Shi Chunxin   20200713 -> 20200714
-     20200713-03   script/     maintain                                       Huang Leilei                20200713 -> 20200714
-     20200713-04   src/sys/    tidy up macro-definitions                      Huang Leilei                **Not Started**
-     20200713-05   src/sys/    tidy up configurations                         Huang Leilei, Shi Chunxin   20200715 -> 20200716
-     20200715-01   src/sys/    optimize cfg.cpp                               Huang Leilei                20200715 -> 20200716
-     20200717-01   src/sys/    update according to cfg_typ.hpp                Huang Leilei                **Not Started**
-     20200717-02   src/sys/    update according to cfg_typ.hpp                Shi Chunxin                 20200717 -> 20200717
-     20200717-03   src/sys/    update according to cfg_typ.hpp                Hao Zhijian                 **Not Started**
-     20200717-04   src/sys/    update according to cfg_typ.hpp                Li Tinging                  **Not Started**
-     20200718-01               perpare some instruction on version control    Huang Leilei                20200718 -> 20200719
-     20200720-01   src/sys/    perpare cfg.pl                                 Huang Leilei                **Not Started**
-    ============= =========== ============================================== =========================== ==========================
+    ================= ============== ================================================== =============================== ==========================
+       Number            Directory      Task                                               Owner                           Status
+    ================= ============== ================================================== =============================== ==========================
+       20200713-01       /              relocate files according to new project tree       Huang Leilei                    20200713 -> 20200714
+       20200713-02       build/         maintain                                           Huang Leilei, Shi Chunxin       20200713 -> 20200714
+       20200713-03       script/        maintain                                           Huang Leilei                    20200713 -> 20200714
+     **20200713-04**   **src/sys/**   **tidy up macro-definitions**                      **Huang Leilei**                **Not Started**
+       20200713-05       src/sys/       tidy up configurations                             Huang Leilei, Shi Chunxin       20200715 -> 20200716
+       20200715-01       src/sys/       optimize cfg.cpp                                   Huang Leilei                    20200715 -> 20200716
+       20200717-01       src/sys/       update according to cfg_typ.hpp                    Huang Leilei                    20200720 -> 20200720
+       20200717-02       src/sys/       update according to cfg_typ.hpp                    Shi Chunxin                     20200717 -> 20200717
+     **20200717-03**   **src/sys/**   **update according to cfg_typ.hpp**                **Hao Zhijian**                 **Not Started**
+       20200717-04       src/sys/       update according to cfg_typ.hpp                    Li Tinging                      20200718 -> 20200718
+       20200718-01       /              perpare some instruction on version control        Huang Leilei                    20200718 -> 20200719
+     **20200720-01**   **src/sys/**   **perpare cfg.pl**                                 **Huang Leilei**                **20200720 -> ????????**
+    ================= ============== ================================================== =============================== ==========================
