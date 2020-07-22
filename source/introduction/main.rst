@@ -115,10 +115,7 @@ Parameter List
     :align: left
     :widths: auto
 
-    ======== =========== ============= =========== ====== ======================= ======================= ===============
-     Domain   Name(Key)   Description   Short Key   Type   Minimum Allowed Value   Maximum Allowed Value   Default Value
-    ======== =========== ============= =========== ====== ======================= ======================= ===============
-    ======== =========== ============= =========== ====== ======================= ======================= ===============
+    .. include:: cfg.rst
 
 
 Owner
@@ -157,19 +154,32 @@ Task List
     :align: left
     :widths: auto
 
-    ================= ============== ================================================== =============================== ==========================
-       Number            Directory      Task                                               Owner                           Status
-    ================= ============== ================================================== =============================== ==========================
-       20200713-01       /              relocate files according to new project tree       Huang Leilei                    20200713 -> 20200714
-       20200713-02       build/         maintain                                           Huang Leilei, Shi Chunxin       20200713 -> 20200714
-       20200713-03       script/        maintain                                           Huang Leilei                    20200713 -> 20200714
-     **20200713-04**   **src/sys/**   **tidy up macro-definitions**                      **Huang Leilei**                **Not Started**
-       20200713-05       src/sys/       tidy up configurations                             Huang Leilei, Shi Chunxin       20200715 -> 20200716
-       20200715-01       src/sys/       optimize cfg.cpp                                   Huang Leilei                    20200715 -> 20200716
-       20200717-01       src/sys/       update according to cfg_typ.hpp                    Huang Leilei                    20200720 -> 20200720
-       20200717-02       src/sys/       update according to cfg_typ.hpp                    Shi Chunxin                     20200717 -> 20200717
-     **20200717-03**   **src/sys/**   **update according to cfg_typ.hpp**                **Hao Zhijian**                 **Not Started**
-       20200717-04       src/sys/       update according to cfg_typ.hpp                    Li Tinging                      20200718 -> 20200718
-       20200718-01       /              perpare some instruction on version control        Huang Leilei                    20200718 -> 20200719
-     **20200720-01**   **src/sys/**   **perpare cfg.pl**                                 **Huang Leilei**                **20200720 -> ????????**
-    ================= ============== ================================================== =============================== ==========================
+    ================= =========================================== ================================================== =============================== ==========================
+       Number            Directory                                   Task                                               Owner                           Status
+    ================= =========================================== ================================================== =============================== ==========================
+       20200713-01       /                                           relocate files according to new project tree       Huang Leilei                    20200713 -> 20200714
+       20200713-02       build/                                      maintain                                           Huang Leilei, Shi Chunxin       20200713 -> 20200714
+       20200713-03       script/                                     maintain                                           Huang Leilei                    20200713 -> 20200714
+     **20200713-04**   **src/sys/**                                **tidy up macro-definitions**                      **Huang Leilei**                **Not Started**
+       20200713-05       src/sys/                                    tidy up configurations                             Huang Leilei, Shi Chunxin       20200715 -> 20200716
+       20200715-01       src/sys/                                    optimize cfg.cpp                                   Huang Leilei                    20200715 -> 20200716
+       20200717-01       src/sys/                                    update according to cfg_typ.hpp                    Huang Leilei                    20200720 -> 20200720
+       20200717-02       src/sys/                                    update according to cfg_typ.hpp                    Shi Chunxin                     20200717 -> 20200717
+       20200717-03       src/sys/                                    update according to cfg_typ.hpp                    Hao Zhijian                     20200722 -> 20200722
+       20200717-04       src/sys/                                    update according to cfg_typ.hpp                    Li Tinging                      20200718 -> 20200718
+       20200718-01       /                                           perpare some instruction on version control        Huang Leilei                    20200718 -> 20200719
+       20200720-01       src/sys/                                    perpare cfg.pl                                     Huang Leilei                    20200720 -> 20200722
+     **20200722-01**   **doc**                                     **extract the calculation of b-d rate**            **Liu Chang**                   **20200722 -> ????????**
+     **20200723-01**   **src/sys/**                                **remove redundant codes + clean warnings**        **Huang Leilei**                **Not Started**
+     **20200723-02**   **src/enc/enc_core/enc_r_c/**               **remove redundant codes + clean warnings**        **Hao Zhijian**                 **Not Started**
+     **20200723-03**   **src/enc/enc_core/enc_fth/**               **remove redundant codes + clean warnings**        **Li Tingting**                 **Not Started**
+     **20200723-04**   **src/enc/enc_core/enc_rmd/**               **remove redundant codes + clean warnings**        **Huang Leilei**                **Not Started**
+     **20200723-05**   **src/enc/enc_core/enc_ime/**               **remove redundant codes + clean warnings**        **Shi Chunxin**                 **Not Started**
+     **20200723-06**   **src/enc/enc_core/enc_fme/**               **remove redundant codes + clean warnings**        **Huang Leilei**                **Not Started**
+     **20200723-07**   **src/enc/enc_core/enc_rdo/**               **remove redundant codes + clean warnings**        **Liu Xun**                     **Not Started**
+     **20200723-08**   **src/enc/enc_core/enc_ilf/**               **remove redundant codes + clean warnings**        **Hou Bingjing**                **Not Started**
+     **20200723-09**   **src/enc/enc_core/enc_e_c/**               **remove redundant codes + clean warnings**        **Zou Yuliang**                 **Not Started**
+     **20200723-10**   **src/enc/enc_core/enc_core_top.(c|h)pp**   **remove redundant codes + clean warnings**        **Huang Leilei**                **Not Started**
+     **20200723-11**   **src/enc/enc_top.(c|h)pp**                 **remove redundant codes + clean warnings**        **Huang Leilei**                **Not Started**
+     **20200723-12**   **src/common/**                             **remove redundant codes + clean warnings**        **Huang Leilei**                **Not Started**
+    ================= =========================================== ================================================== =============================== ==========================
