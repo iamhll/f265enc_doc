@@ -239,3 +239,15 @@ collected through code review
 #.  Indentation
 
     never use tab
+
+#.  **Definition**
+
+    must be atomic
+
+    ::
+
+        #define C    A + B      // wrong
+
+    ::
+
+        #define C    (A + B)    // right
