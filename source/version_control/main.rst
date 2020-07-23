@@ -17,18 +17,24 @@ Platform
 |   Please sign up and send your username to me.
 
 
+Policy
+------
+
+*   **Always exchange files through git.**
+*   **Always revert unnecessary changes.**
+*   **Always make each commitment "atomic".**
+*   **Always run script/runListUpdate.sh before each commitment.**
+*   **Always use "rebase" rather than "merge".**
+
+
 Deployment
 ----------
-
-Always run script/runListUpdate.sh before each commitment.
 
 .. image:: deployment.png
 
 
 Flow
 ----
-
-Basically, "rebase" is more preferred than "merge".
 
 for junior developers
 .....................
