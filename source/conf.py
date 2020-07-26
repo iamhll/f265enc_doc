@@ -57,14 +57,47 @@ html_theme_options = {
     "sidebarwidth"      : "240",
     "collapsiblesidebar": "false",
     "body_min_width"    : 0,
-    "body_max_width"    : "none"
+    "body_max_width"    : "none",
+    # 1
+    #"footerbgcolor"     : "#527da6",
+    #"footertextcolor"   : "#ffffff",
+    #"sidebarbgcolor"    : "#f0f0f0",
+    #"sidebarbtncolor"   : "#355f7c",
+    #"sidebartextcolor"  : "#20435c",
+    #"sidebarlinkcolor"  : "#355f7c",
+    #"relbarbgcolor"     : "#527da6",
+    #"relbartextcolor"   : "#ffffff",
+    #"relbarlinkcolor"   : "#ffffff"
+    # 2
+    "footerbgcolor"     : "#426d96",
+    "footertextcolor"   : "#ffffff",
+    "sidebarbgcolor"    : "#527da6",
+    "sidebarbtncolor"   : "#ffffff",
+    "sidebartextcolor"  : "#ffffff",
+    "sidebarlinkcolor"  : "#ffffff",
+    "relbarbgcolor"     : "#426d96",
+    "relbartextcolor"   : "#ffffff",
+    "relbarlinkcolor"   : "#ffffff"
 }
-
+#html_theme = 'alabaster'
+#html_theme_options = {
+#    "page_width"      : "2000px",
+#    #"sidebar_collapse": "true"
+#    #"sidebar_width": "1000"
+#}
+#html_theme = 'sphinxdoc'
+#html_theme = 'scrolls'
+#html_theme = 'agogo'
+#html_theme = 'traditional'
+#html_theme = 'nature'
+#html_theme = 'haiku'
+#html_theme = 'pyramid'
+#html_theme = 'bizstyle'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+#html_static_path = ['_static']
 
 
 
