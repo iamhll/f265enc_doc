@@ -150,36 +150,63 @@ Owner
 Task List
 ---------
 
-.. table::
+.. table:: 2020.07
     :align: left
     :widths: auto
 
-    ================= =========================================== =================================== ================================================== =============================== ==========================
-       Number            Directory                                   Tag                                   Task                                               Owner                           Status
-    ================= =========================================== =================================== ================================================== =============================== ==========================
-       20200713-01       /                                           /                                   relocate files according to new project tree       Huang Leilei                    20200713 -> 20200714
-       20200713-02       build/                                      /                                   maintain                                           Huang Leilei, Shi Chunxin       20200713 -> 20200714
-       20200713-03       script/                                     /                                   maintain                                           Huang Leilei                    20200713 -> 20200714
-     **20200713-04**   **src/sys/**                                **/**                               **tidy up macro-definitions**                      **Huang Leilei**                **Not Started**
-       20200713-05       src/sys/                                    /                                   tidy up configurations                             Huang Leilei, Shi Chunxin       20200715 -> 20200716
-       20200715-01       src/sys/                                    /                                   optimize cfg.cpp                                   Huang Leilei                    20200715 -> 20200716
-       20200717-01       src/sys/                                    /                                   update according to cfg_typ.hpp                    Huang Leilei                    20200720 -> 20200720
-       20200717-02       src/sys/                                    tidyup/sys/cfg/000/000/global       update according to cfg_typ.hpp                    Shi Chunxin                     20200717 -> 20200717
-       20200717-03       src/sys/                                    tidyup/sys/cfg/000/000/global       update according to cfg_typ.hpp                    Hao Zhijian                     20200722 -> 20200722
-       20200717-04       src/sys/                                    tidyup/sys/cfg/000/000/global       update according to cfg_typ.hpp                    Li Tinging                      20200718 -> 20200718
-       20200718-01       /                                           /                                   perpare some instruction on version control        Huang Leilei                    20200718 -> 20200719
-       20200720-01       src/sys/                                    /                                   perpare cfg.pl                                     Huang Leilei                    20200720 -> 20200722
-     **20200722-01**   **doc**                                       /                                 **extract the calculation of b-d rate**            **Liu Chang**                   **20200722 -> ????????**
-     **20200723-01**   **src/sys/**                                **tidyup/all/000/000/global**       **remove redundant codes + clean warnings**        **Huang Leilei**                **Not Started**
-     **20200723-02**   **src/enc/enc_core/enc_r_c/**               **tidyup/all/000/000/global**       **remove redundant codes + clean warnings**        **Hao Zhijian**                 **Not Started**
-     **20200723-03**   **src/enc/enc_core/enc_fth/**               **tidyup/all/000/000/global**       **remove redundant codes + clean warnings**        **Li Tingting**                 **Not Started**
-     **20200723-04**   **src/enc/enc_core/enc_rmd/**               **tidyup/all/000/000/global**       **remove redundant codes + clean warnings**        **Huang Leilei**                **Not Started**
-     **20200723-05**   **src/enc/enc_core/enc_ime/**               **tidyup/all/000/000/global**       **remove redundant codes + clean warnings**        **Shi Chunxin**                 **Not Started**
-     **20200723-06**   **src/enc/enc_core/enc_fme/**               **tidyup/all/000/000/global**       **remove redundant codes + clean warnings**        **Huang Leilei**                **Not Started**
-     **20200723-07**   **src/enc/enc_core/enc_rdo/**               **tidyup/all/000/000/global**       **remove redundant codes + clean warnings**        **Liu Xun**                     **Not Started**
-     **20200723-08**   **src/enc/enc_core/enc_ilf/**               **tidyup/all/000/000/global**       **remove redundant codes + clean warnings**        **Hou Bingjing**                **Not Started**
-     **20200723-09**   **src/enc/enc_core/enc_e_c/**               **tidyup/all/000/000/global**       **remove redundant codes + clean warnings**        **Zou Yuliang**                 **Not Started**
-     **20200723-10**   **src/enc/enc_core/enc_core_top.(c|h)pp**   **tidyup/all/000/000/global**       **remove redundant codes + clean warnings**        **Huang Leilei**                **Not Started**
-     **20200723-11**   **src/enc/enc_top.(c|h)pp**                 **tidyup/all/000/000/global**       **remove redundant codes + clean warnings**        **Huang Leilei**                **Not Started**
-     **20200723-12**   **src/common/**                             **tidyup/all/000/000/global**       **remove redundant codes + clean warnings**        **Huang Leilei**                **Not Started**
-    ================= =========================================== =================================== ================================================== =============================== ==========================
+    ============= ======================================= =================================================== ============================================== =========================== ============================
+     Number        Directory                               Tag                                                   Task                                           Owner                         Status
+    ============= ======================================= =================================================== ============================================== =========================== ============================
+     20200713-01   /                                       /                                                   relocate files according to new project tree   Huang Leilei                  20200713 -> 20200714
+     20200713-02   build/                                  /                                                   maintain                                       Huang Leilei, Shi Chunxin     20200713 -> 20200714
+     20200713-03   script/                                 /                                                   maintain                                       Huang Leilei                  20200713 -> 20200714
+     20200713-04   src/sys/                                /                                                   tidy up macro-definitions                      Huang Leilei                **Not Started**
+     20200713-05   src/sys/                                /                                                   tidy up configurations                         Huang Leilei, Shi Chunxin     20200715 -> 20200716
+     20200715-01   src/sys/                                /                                                   optimize cfg.cpp                               Huang Leilei                  20200715 -> 20200716
+     20200717-01   src/sys/                                /                                                   update according to cfg_typ.hpp                Huang Leilei                  20200720 -> 20200720
+     20200717-02   src/sys/                                tidyup/sys/cfg/000/restructure/global               update according to cfg_typ.hpp                Shi Chunxin                   20200717 -> 20200717
+     20200717-03   src/sys/                                tidyup/sys/cfg/000/restructure/global               update according to cfg_typ.hpp                Hao Zhijian                   20200722 -> 20200722
+     20200717-04   src/sys/                                tidyup/sys/cfg/000/restructure/global               update according to cfg_typ.hpp                Li Tinging                    20200718 -> 20200718
+     20200718-01   /                                       /                                                   perpare some instruction on version control    Huang Leilei                  20200718 -> 20200719
+     20200720-01   src/sys/                                /                                                   perpare cfg.pl                                 Huang Leilei                  20200720 -> 20200722
+     20200722-01   script                                  update/script/000/getBdRate/master                  extract the calculation of b-d rate            Liu Chang                     20200722 -> **20200728**
+     20200723-01   src/sys/                                tidyup/src/000/cleanWarnings/master                 clean warnings                                 Huang Leilei                  20200729 -> 20200729
+     20200723-02   src/enc/enc_core/enc_r_c/               update/src/enc/enc_core/enc_r_c/000/create/master   clean warnings                                 Hao Zhijian                   20200728 -> **20200728**
+     20200723-03   src/enc/enc_core/enc_fth/               tidyup/src/000/cleanWarnings/master                 clean warnings                                 Li Tingting                   20200727 -> 20200727
+     20200723-04   src/enc/enc_core/enc_rmd/               tidyup/src/000/cleanWarnings/master                 clean warnings                                 Huang Leilei                  20200729 -> 20200729
+     20200723-05   src/enc/enc_core/enc_ime/               tidyup/src/000/cleanWarnings/master                 clean warnings                                 Shi Chunxin                   20200726 -> 20200726
+     20200723-06   src/enc/enc_core/enc_fme/               tidyup/src/000/cleanWarnings/master                 clean warnings                                 Huang Leilei                  20200729 -> 20200729
+     20200723-07   src/enc/enc_core/enc_rdo/               tidyup/src/000/cleanWarnings/master                 clean warnings                                 Huang Leilei                  20200729 -> 20200729
+     20200723-08   src/enc/enc_core/enc_ilf/               tidyup/src/000/cleanWarnings/master                 clean warnings                                 Hou Bingjing                  20200727 -> 20200729
+     20200723-09   src/enc/enc_core/enc_e_c/               tidyup/src/000/cleanWarnings/master                 clean warnings                                 Zou Yuliang                   20200727 -> 20200727
+     20200723-10   src/enc/enc_core/enc_core_top.(c|h)pp   tidyup/src/000/cleanWarnings/master                 clean warnings                                 Huang Leilei                  20200729 -> 20200729
+     20200723-11   src/enc/enc_top.(c|h)pp                 tidyup/src/000/cleanWarnings/master                 clean warnings                                 Huang Leilei                  20200729 -> 20200729
+     20200723-12   src/common/                             tidyup/src/000/cleanWarnings/master                 clean warnings                                 Huang Leilei                  20200729 -> 20200729
+     20200730-01   src/enc/enc_core/enc_r_c/               tidyup/src/001/listFuncAndMember/master             list functions and members                     Hao Zhijian                 **Not Started**
+     20200730-02   src/enc/enc_core/enc_fth/               tidyup/src/001/listFuncAndMember/master             list functions and members                     Li Tingting                 **Not Started**
+     20200730-03   src/enc/enc_core/enc_rmd/               tidyup/src/001/listFuncAndMember/master             list functions and members                     Huang Leilei                **Not Started**
+     20200730-04   src/enc/enc_core/enc_ime/               tidyup/src/001/listFuncAndMember/master             list functions and members                     Shi Chunxin                 **Not Started**
+     20200730-05   src/enc/enc_core/enc_fme/               tidyup/src/001/listFuncAndMember/master             list functions and members                     Huang Leilei                **Not Started**
+     20200730-06   src/enc/enc_core/enc_rdo/               tidyup/src/001/listFuncAndMember/master             list functions and members                     Huang Leilei                **Not Started**
+     20200730-07   src/enc/enc_core/enc_ilf/               tidyup/src/001/listFuncAndMember/master             list functions and members                     Hou Bingjing                **Not Started**
+     20200730-08   src/enc/enc_core/enc_e_c/               tidyup/src/001/listFuncAndMember/master             list functions and members                     Zou Yuliang                 **Not Started**
+    ============= ======================================= =================================================== ============================================== =========================== ============================
+
+\
+
+.. table:: 2020.08
+    :align: left
+    :widths: auto
+
+    ============= =========================== =================================== ============= ============== =================
+     Number        Directory                   Tag                                   Task          Owner            Status
+    ============= =========================== =================================== ============= ============== =================
+     20200803-01   src/enc/enc_core/enc_r_c/   tidyup/src/002/restructure/master   restructure   Hao Zhijian    **Not Started**
+     20200803-02   src/enc/enc_core/enc_fth/   tidyup/src/002/restructure/master   restructure   Li Tingting    **Not Started**
+     20200803-03   src/enc/enc_core/enc_rmd/   tidyup/src/002/restructure/master   restructure   Huang Leilei   **Not Started**
+     20200803-04   src/enc/enc_core/enc_ime/   tidyup/src/002/restructure/master   restructure   Shi Chunxin    **Not Started**
+     20200803-05   src/enc/enc_core/enc_fme/   tidyup/src/002/restructure/master   restructure   Huang Leilei   **Not Started**
+     20200803-06   src/enc/enc_core/enc_rdo/   tidyup/src/002/restructure/master   restructure   Huang Leilei   **Not Started**
+     20200803-07   src/enc/enc_core/enc_ilf/   tidyup/src/002/restructure/master   restructure   Hou Bingjing   **Not Started**
+     20200803-08   src/enc/enc_core/enc_e_c/   tidyup/src/002/restructure/master   restructure   Zou Yuliang    **Not Started**
+    ============= =========================== =================================== ============= ============== =================
