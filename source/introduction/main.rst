@@ -187,7 +187,7 @@ Task List
      20200730-03   src/enc/enc_core/enc_rmd/               tidyup/src/001/listFuncAndMember/master             list functions and members                     Huang Leilei                **Not Started**
      20200730-04   src/enc/enc_core/enc_ime/               tidyup/src/001/listFuncAndMember/master             list functions and members                     Shi Chunxin                 **Not Started**
      20200730-05   src/enc/enc_core/enc_fme/               tidyup/src/001/listFuncAndMember/master             list functions and members                     Huang Leilei                **Not Started**
-     20200730-06   src/enc/enc_core/enc_rdo/               tidyup/src/001/listFuncAndMember/master             list functions and members                     Huang Leilei                **Not Started**
+     20200730-06   src/enc/enc_core/enc_rdo/               tidyup/src/001/listFuncAndMember/master             list functions and members                     Liu Chang                   **Not Started**
      20200730-07   src/enc/enc_core/enc_ilf/               tidyup/src/001/listFuncAndMember/master             list functions and members                     Hou Bingjing                  20200803 -> **20200803**
      20200730-08   src/enc/enc_core/enc_e_c/               tidyup/src/001/listFuncAndMember/master             list functions and members                     Zou Yuliang                   20200803 -> **20200803**
     ============= ======================================= =================================================== ============================================== =========================== ============================
@@ -204,9 +204,9 @@ Task List
      20200803-01   src/enc/enc_core/enc_r_c/   tidyup/src/002/restructure/master   restructure   Hao Zhijian    **Not Started**
      20200803-02   src/enc/enc_core/enc_fth/   tidyup/src/002/restructure/master   restructure   Li Tingting      20200804 -> **20200805**
      20200803-03   src/enc/enc_core/enc_rmd/   tidyup/src/002/restructure/master   restructure   Huang Leilei     20200803 -> 20200803
-     20200803-04   src/enc/enc_core/enc_ime/   tidyup/src/002/restructure/master   restructure   Shi Chunxin    **Not Started**
-     20200803-05   src/enc/enc_core/enc_fme/   tidyup/src/002/restructure/master   restructure   Huang Leilei   **Not Started**
-     20200803-06   src/enc/enc_core/enc_rdo/   tidyup/src/002/restructure/master   restructure   Huang Leilei   **Not Started**
-     20200803-07   src/enc/enc_core/enc_ilf/   tidyup/src/002/restructure/master   restructure   Hou Bingjing   **Not Started**
-     20200803-08   src/enc/enc_core/enc_e_c/   tidyup/src/002/restructure/master   restructure   Zou Yuliang    **Not Started**
+     20200803-04   src/enc/enc_core/enc_ime/   tidyup/src/002/restructure/master   restructure   Shi Chunxin    **20200806 ->**
+     20200803-05   src/enc/enc_core/enc_fme/   tidyup/src/002/restructure/master   restructure   Huang Leilei     20200805 -> 20200806
+     20200803-06   src/enc/enc_core/enc_rdo/   tidyup/src/002/restructure/master   restructure   Liu Chang      **20200806 ->**
+     20200803-07   src/enc/enc_core/enc_ilf/   tidyup/src/002/restructure/master   restructure   Hou Bingjing   **20200806 ->**
+     20200803-08   src/enc/enc_core/enc_e_c/   tidyup/src/002/restructure/master   restructure   Zou Yuliang    **20200806 ->**
     ============= =========================== =================================== ============= ============== ==============================
