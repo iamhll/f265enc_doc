@@ -170,26 +170,25 @@ Task List
      20200718-01   /                                       /                                                   perpare some instruction on version control    Huang Leilei                  20200718 -> 20200719
      20200720-01   src/sys/                                /                                                   perpare cfg.pl                                 Huang Leilei                  20200720 -> 20200722
      20200722-01   script                                  update/script/000/getBdRate/master                  extract the calculation of b-d rate            Liu Chang                     20200722 -> 20200804
-     20200723-01   src/sys/                                tidyup/src/000/cleanWarnings/master                 clean warnings                                 Huang Leilei                  20200729 -> 20200729
-     20200723-02   src/enc/enc_core/enc_r_c/               update/src/enc/enc_core/enc_r_c/000/create/master   clean warnings                                 Hao Zhijian                   20200728 -> **20200804**
-     20200723-03   src/enc/enc_core/enc_fth/               tidyup/src/000/cleanWarnings/master                 clean warnings                                 Li Tingting                   20200727 -> 20200727
-     20200723-04   src/enc/enc_core/enc_rmd/               tidyup/src/000/cleanWarnings/master                 clean warnings                                 Huang Leilei                  20200729 -> 20200729
-     20200723-05   src/enc/enc_core/enc_ime/               tidyup/src/000/cleanWarnings/master                 clean warnings                                 Shi Chunxin                   20200726 -> 20200726
-     20200723-06   src/enc/enc_core/enc_fme/               tidyup/src/000/cleanWarnings/master                 clean warnings                                 Huang Leilei                  20200729 -> 20200729
-     20200723-07   src/enc/enc_core/enc_rdo/               tidyup/src/000/cleanWarnings/master                 clean warnings                                 Huang Leilei                  20200729 -> 20200729
-     20200723-08   src/enc/enc_core/enc_ilf/               tidyup/src/000/cleanWarnings/master                 clean warnings                                 Hou Bingjing                  20200727 -> 20200729
-     20200723-09   src/enc/enc_core/enc_e_c/               tidyup/src/000/cleanWarnings/master                 clean warnings                                 Zou Yuliang                   20200727 -> 20200727
-     20200723-10   src/enc/enc_core/enc_core_top.(c|h)pp   tidyup/src/000/cleanWarnings/master                 clean warnings                                 Huang Leilei                  20200729 -> 20200729
-     20200723-11   src/enc/enc_top.(c|h)pp                 tidyup/src/000/cleanWarnings/master                 clean warnings                                 Huang Leilei                  20200729 -> 20200729
-     20200723-12   src/common/                             tidyup/src/000/cleanWarnings/master                 clean warnings                                 Huang Leilei                  20200729 -> 20200729
-     20200730-01   src/enc/enc_core/enc_r_c/               tidyup/src/001/listFuncAndMember/master             list functions and members                     Hao Zhijian                 **Not Started**
-     20200730-02   src/enc/enc_core/enc_fth/               tidyup/src/001/listFuncAndMember/master             list functions and members                     Li Tingting                 **Not Started**
-     20200730-03   src/enc/enc_core/enc_rmd/               tidyup/src/001/listFuncAndMember/master             list functions and members                     Huang Leilei                **Not Started**
-     20200730-04   src/enc/enc_core/enc_ime/               tidyup/src/001/listFuncAndMember/master             list functions and members                     Shi Chunxin                 **Not Started**
-     20200730-05   src/enc/enc_core/enc_fme/               tidyup/src/001/listFuncAndMember/master             list functions and members                     Huang Leilei                **Not Started**
-     20200730-06   src/enc/enc_core/enc_rdo/               tidyup/src/001/listFuncAndMember/master             list functions and members                     Liu Chang                   **Not Started**
-     20200730-07   src/enc/enc_core/enc_ilf/               tidyup/src/001/listFuncAndMember/master             list functions and members                     Hou Bingjing                  20200803 -> **20200803**
-     20200730-08   src/enc/enc_core/enc_e_c/               tidyup/src/001/listFuncAndMember/master             list functions and members                     Zou Yuliang                   20200803 -> **20200803**
+     20200723-01   src/enc/enc_core/enc_fth/               tidyup/src/000/cleanWarnings/master                 clean warnings                                 Li Tingting                   20200727 -> 20200727
+     20200723-02   src/enc/enc_core/enc_rmd/               tidyup/src/000/cleanWarnings/master                 clean warnings                                 Huang Leilei                  20200729 -> 20200729
+     20200723-03   src/enc/enc_core/enc_ime/               tidyup/src/000/cleanWarnings/master                 clean warnings                                 Shi Chunxin                   20200726 -> 20200726
+     20200723-04   src/enc/enc_core/enc_fme/               tidyup/src/000/cleanWarnings/master                 clean warnings                                 Huang Leilei                  20200729 -> 20200729
+     20200723-05   src/enc/enc_core/enc_rdo/               tidyup/src/000/cleanWarnings/master                 clean warnings                                 Huang Leilei                  20200729 -> 20200729
+     20200723-06   src/enc/enc_core/enc_ilf/               tidyup/src/000/cleanWarnings/master                 clean warnings                                 Hou Bingjing                  20200727 -> 20200729
+     20200723-07   src/enc/enc_core/enc_e_c/               tidyup/src/000/cleanWarnings/master                 clean warnings                                 Zou Yuliang                   20200727 -> 20200727
+     20200723-08   src/enc/enc_core/enc_core_top.(c|h)pp   tidyup/src/000/cleanWarnings/master                 clean warnings                                 Huang Leilei                  20200729 -> 20200729
+     20200723-09   src/enc/enc_top.(c|h)pp                 tidyup/src/000/cleanWarnings/master                 clean warnings                                 Huang Leilei                  20200729 -> 20200729
+     20200723-10   src/common/                             tidyup/src/000/cleanWarnings/master                 clean warnings                                 Huang Leilei                  20200729 -> 20200729
+     20200723-11   src/sys/                                tidyup/src/000/cleanWarnings/master                 clean warnings                                 Huang Leilei                  20200729 -> 20200729
+     20200723-12   src/enc/enc_core/enc_ime/               update/src/enc/enc_core/enc_ime/000/addRc/master    add R_C logic                                  Hao Zhijian                   20200728 -> 20200811
+     20200730-01   src/enc/enc_core/enc_fth/               tidyup/src/001/listFuncAndMember/master             list functions and members                     Li Tingting                 **Not Started**
+     20200730-02   src/enc/enc_core/enc_rmd/               tidyup/src/001/listFuncAndMember/master             list functions and members                     Huang Leilei                **Not Started**
+     20200730-03   src/enc/enc_core/enc_ime/               tidyup/src/001/listFuncAndMember/master             list functions and members                     Shi Chunxin                 **Not Started**
+     20200730-04   src/enc/enc_core/enc_fme/               tidyup/src/001/listFuncAndMember/master             list functions and members                     Huang Leilei                **Not Started**
+     20200730-05   src/enc/enc_core/enc_rdo/               tidyup/src/001/listFuncAndMember/master             list functions and members                     Huang Leilei                **Not Started**
+     20200730-06   src/enc/enc_core/enc_ilf/               tidyup/src/001/listFuncAndMember/master             list functions and members                     Hou Bingjing                  20200803 -> **20200803**
+     20200730-07   src/enc/enc_core/enc_e_c/               tidyup/src/001/listFuncAndMember/master             list functions and members                     Zou Yuliang                   20200803 -> **20200803**
     ============= ======================================= =================================================== ============================================== =========================== ============================
 
 \
@@ -198,15 +197,22 @@ Task List
     :align: left
     :widths: auto
 
-    ============= =========================== =================================== ============= ============== ==============================
-     Number        Directory                   Tag                                   Task          Owner            Status
-    ============= =========================== =================================== ============= ============== ==============================
-     20200803-01   src/enc/enc_core/enc_r_c/   tidyup/src/002/restructure/master   restructure   Hao Zhijian    **Not Started**
-     20200803-02   src/enc/enc_core/enc_fth/   tidyup/src/002/restructure/master   restructure   Li Tingting      20200804 -> **20200805**
-     20200803-03   src/enc/enc_core/enc_rmd/   tidyup/src/002/restructure/master   restructure   Huang Leilei     20200803 -> 20200803
-     20200803-04   src/enc/enc_core/enc_ime/   tidyup/src/002/restructure/master   restructure   Shi Chunxin    **20200806 ->**
-     20200803-05   src/enc/enc_core/enc_fme/   tidyup/src/002/restructure/master   restructure   Huang Leilei     20200805 -> 20200806
-     20200803-06   src/enc/enc_core/enc_rdo/   tidyup/src/002/restructure/master   restructure   Liu Chang      **20200806 ->**
-     20200803-07   src/enc/enc_core/enc_ilf/   tidyup/src/002/restructure/master   restructure   Hou Bingjing   **20200806 ->**
-     20200803-08   src/enc/enc_core/enc_e_c/   tidyup/src/002/restructure/master   restructure   Zou Yuliang    **20200806 ->**
-    ============= =========================== =================================== ============= ============== ==============================
+    ============= =========================== ==================================================== ================ ============== ==========================
+     Number        Directory                   Tag                                                    Task             Owner            Status
+    ============= =========================== ==================================================== ================ ============== ==========================
+     20200803-01   src/enc/enc_core/enc_fth/   tidyup/src/002/restructure/master                    restructure      Li Tingting      20200804 -> 20200805
+     20200803-02   src/enc/enc_core/enc_rmd/   tidyup/src/002/restructure/master                    restructure      Huang Leilei     20200803 -> 20200803
+     20200803-03   src/enc/enc_core/enc_ime/   tidyup/src/002/restructure/master                    restructure      Shi Chunxin      20200806 -> 20200810
+     20200803-04   src/enc/enc_core/enc_fme/   tidyup/src/002/restructure/master                    restructure      Huang Leilei     20200805 -> 20200806
+     20200803-05   src/enc/enc_core/enc_rdo/   tidyup/src/002/restructure/master                    restructure      Huang Leilei     20200806 -> 20200810
+     20200803-06   src/enc/enc_core/enc_ilf/   tidyup/src/002/restructure/master                    restructure      Hou Bingjing     20200806 -> 20200810
+     20200803-07   src/enc/enc_core/enc_e_c/   tidyup/src/002/restructure/master                    restructure      Zou Yuliang      20200806 -> 20200810
+     20200811-01   src/enc/enc_core/enc_fth/   tidyup/src/003/optimize/master                       optimize         Li Tingting    20200811 -> **20200813**
+     20200811-02   src/enc/enc_core/enc_rmd/   tidyup/src/003/optimize/master                       optimize         Huang Leilei   **not started**
+     20200811-03   src/enc/enc_core/enc_ime/   tidyup/src/003/optimize/master                       optimize         Shi Chunxin    20200811 -> **20200811**
+     20200811-04   src/enc/enc_core/enc_fme/   tidyup/src/003/optimize/master                       optimize         Huang Leilei   **not started**
+     20200811-05   src/enc/enc_core/enc_rdo/   tidyup/src/003/optimize/master                       optimize         Huang Leilei   **not started**
+     20200811-06   src/enc/enc_core/enc_ilf/   tidyup/src/003/optimize/master                       optimize         Hou Bingjing   **20200811 ->**
+     20200811-07   src/enc/enc_core/enc_e_c/   tidyup/src/003/optimize/master                       optimize         Zou Yuliang    **20200811 ->**
+     20200814-01   src/enc/enc_core/enc_ime/   update/src/enc/enc_core/enc_ime/001/addIinP/master   add IinP logic   Huang Leilei   **not started**
+    ============= =========================== ==================================================== ================ ============== ==========================
