@@ -17,6 +17,7 @@ Welcome to f265enc's documentation!
     coding_style/main
     template/main
     check_list/main
+    how_to/main
 
 
 Indices and tables
