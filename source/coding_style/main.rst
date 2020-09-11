@@ -1,10 +1,10 @@
 .. -----------------------------------------------------------------------------
-  ..
-  ..  Filename       : main.rst
-  ..  Author         : Huang Leilei
-  ..  Created        : 2020-07-12
-  ..  Description    : coding style related documents
-  ..
+    ..
+    ..  Filename       : main.rst
+    ..  Author         : Huang Leilei
+    ..  Created        : 2020-07-12
+    ..  Description    : coding style related documents
+    ..
 .. -----------------------------------------------------------------------------
 
 Coding Style
@@ -242,7 +242,7 @@ collected through code review
 
     \
 
-#.  **Definition**
+#.  Definition
 
     must be atomic
 
@@ -253,3 +253,7 @@ collected through code review
     ::
 
         #define C    (A + B)    // right
+
+#.  Magic number
+
+    use them as less as possible
