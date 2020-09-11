@@ -1,10 +1,10 @@
 .. -----------------------------------------------------------------------------
-  ..
-  ..  Filename       : main.rst
-  ..  Author         : Huang Leilei
-  ..  Created        : 2020-07-18
-  ..  Description    : version control related documents
-  ..
+    ..
+    ..  Filename       : main.rst
+    ..  Author         : Huang Leilei
+    ..  Created        : 2020-07-18
+    ..  Description    : version control related documents
+    ..
 .. -----------------------------------------------------------------------------
 
 Version Control
@@ -13,14 +13,14 @@ Version Control
 Platform
 --------
 
-|   We shall have a try run on https://code.aliyun.com/.
-|   Please sign up and send your username to me.
+    |   We are running version control on https://code.aliyun.com/.
+    |   Please sign up and send your username to me.
 
 
 Policy
 ------
 
-*   **Always exchange files through git.**
+*   **Always exchange files through Git.**
 *   **Always revert unnecessary changes.**
 *   **Always make each commitment "atomic".**
 *   **Always run script/runListUpdate.sh before each commitment.**
