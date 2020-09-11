@@ -1,10 +1,10 @@
 .. -----------------------------------------------------------------------------
-  ..
-  ..  Filename       : main.rst
-  ..  Author         : Huang Leilei
-  ..  Created        : 2020-07-12
-  ..  Description    : script usage related documents
-  ..
+    ..
+    ..  Filename       : main.rst
+    ..  Author         : Huang Leilei
+    ..  Created        : 2020-07-12
+    ..  Description    : script usage related documents
+    ..
 .. -----------------------------------------------------------------------------
 
 Script Usage
@@ -21,8 +21,8 @@ build/linux
 
 *   pre-requests
 
-    #.  gcc, g++ (my version is 7.5.0 )
-    #.  make     (my version is 4.1   )
+    #.  gcc, g++ (my version is 7.5.0)
+    #.  make     (my version is 4.1)
     #.  cmake    (my version is 3.10.2)
 
     \
@@ -67,7 +67,7 @@ build/windows
 
 *   pre-requests
 
-    #.  cmake         (my version is 3.18.0-rc4 )
+    #.  cmake         (my version is 3.18.0-rc4)
     #.  visual studio (my version is 2019-16.4.3)
 
     \
@@ -99,7 +99,7 @@ build/windows
 
         \
 
-    #.  add "-c ..\..\script\run\f265.cfg" to the command-line parameters of f265
+    #.  add "-c ..\\..\\script\\run\\f265.cfg" to the command-line parameters of f265
 
         .. image:: buildWindowsStep5a.png
         .. image:: buildWindowsStep5b.png
@@ -114,7 +114,7 @@ build/windows
 
     #.  modify script/run/f265.cfg according to your requests, for example
 
-        *  InputFile    E:\DOWNLOAD\SEQUENCE\bitDepth_8\BasketballPass\BasketballPass.yuv
+        *  InputFile    E:\\DOWNLOAD\\SEQUENCE\\bitDepth_8\\BasketballPass\\BasketballPass.yuv
 
         \
 
@@ -130,20 +130,21 @@ script/run
     *   function
 
         #.  automatically run f265 according to your lists (sequence × qp)
-        #.  calculate md5sum of each hevc file
-        #.  compare reconstructed and decoded picture and mark any mismatch
+        #.  calculate and note down md5sum of hevc files
+        #.  compare reconstructed and decoded pictures and mark any mismatch
         #.  extract PSNR and bit rate information
+        #.  calculate B-D rate
 
         \
 
     *   pre-requests
 
-        #.  gcc, g++ (my version is 7.5.0 )
-        #.  make     (my version is 4.1   )
+        #.  gcc, g++ (my version is 7.5.0)
+        #.  make     (my version is 4.1)
         #.  cmake    (my version is 3.10.2)
-        #.  md5sum   (my version is 8.28  )
-        #.  ffmpeg   (my version is 3.4.6 )
-        #.  python   (my version is 3.6.9 )
+        #.  md5sum   (my version is 8.28)
+        #.  ffmpeg   (my version is 3.4.6)
+        #.  python3  (my version is 3.6.9)
 
         \
 
@@ -191,9 +192,12 @@ script/showDiff
 
             .. image:: scriptShowDiffStep2a.png
 
-            if mismatch is detected, it will stop, and you can check the mismatch
+            if mismatch is detected, it will stop
 
             .. image:: scriptShowDiffStep2b.png
+
+            and you can check the mismatch
+
             .. image:: scriptShowDiffStep2c.png
 
             \
