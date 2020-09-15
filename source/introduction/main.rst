@@ -128,7 +128,7 @@ Owner
 Task List
 ---------
 
-gantt
+gantt (20200915)
 
 .. image:: task.png
 
@@ -138,20 +138,23 @@ gantt
     :align: left
     :widths: auto
 
-    ============= ======================================================== ================================================ =========================== ============== =====================
-     Number        Task                                                     Start Point                                      Target Module               Owner          Status
-    ============= ======================================================== ================================================ =========================== ============== =====================
-     20200907-01   create base class and tidy up other whatever I noticed   tidyup/src/004/tidyUpWhatINoticed/master         src/enc/enc_knl/enc_rmd/    Huang Leilei   20200901 - 20200902
-     20200907-01   create base class and tidy up other whatever I noticed   tidyup/src/004/tidyUpWhatINoticed/master         src/enc/enc_knl/enc_ime/    Huang Leilei   20200907 - 20200908
-     20200907-01   create base class and tidy up other whatever I noticed   tidyup/src/004/tidyUpWhatINoticed/master         src/enc/enc_knl/enc_fme/    Huang Leilei   20200908 - 20200908
-     20200907-01   create base class and tidy up other whatever I noticed   tidyup/src/004/tidyUpWhatINoticed/master         src/enc/enc_knl/enc_rdo/    Huang Leilei   20200908 - 20200909
-     20200907-01   create base class and tidy up other whatever I noticed   tidyup/src/004/tidyUpWhatINoticed/master         src/enc/enc_knl/enc_knl/    Huang Leilei   20200909 - 20200909
-     20200907-01   create base class and tidy up other whatever I noticed   tidyup/src/004/tidyUpWhatINoticed/master         src/common/lcu/             Huang Leilei   20200910 - 20200910
-     20200914-01   continue of 20200907-01                                  tidyup/src/005/tailOfTidyUpWhatINoticed/master   src/common                  Liu Chang      \* not stated
-     20200914-01   continue of 20200907-01                                  tidyup/src/005/tailOfTidyUpWhatINoticed/master   src/enc/enc_knl/enc_fth     Li Tingting    \* not stated
-     20200914-01   continue of 20200907-01                                  tidyup/src/005/tailOfTidyUpWhatINoticed/master   src/enc/enc_knl/enc_ilf/    Hou Bingjing   \* not stated
-     20200914-01   continue of 20200907-01                                  tidyup/src/005/tailOfTidyUpWhatINoticed/master   src/enc/enc_knl/enc_e_c/    Zou Yuliang    \* not stated
-    ============= ======================================================== ================================================ =========================== ============== =====================
+    ============= ======================================================== ==================================================== ========================= =========================== =====================
+     Number        Task                                                     Start Point                                          Target Module             Owner                       Status
+    ============= ======================================================== ==================================================== ========================= =========================== =====================
+     20200907-01   create base class and tidy up other whatever I noticed   tidyup/src/004/tidyUpWhatINoticed/master             src/enc/enc_knl/enc_rmd   Huang Leilei                20200901 - 20200902
+     20200907-01   create base class and tidy up other whatever I noticed   tidyup/src/004/tidyUpWhatINoticed/master             src/enc/enc_knl/enc_ime   Huang Leilei                20200907 - 20200908
+     20200907-01   create base class and tidy up other whatever I noticed   tidyup/src/004/tidyUpWhatINoticed/master             src/enc/enc_knl/enc_fme   Huang Leilei                20200908 - 20200908
+     20200907-01   create base class and tidy up other whatever I noticed   tidyup/src/004/tidyUpWhatINoticed/master             src/enc/enc_knl/enc_rdo   Huang Leilei                20200908 - 20200909
+     20200907-01   create base class and tidy up other whatever I noticed   tidyup/src/004/tidyUpWhatINoticed/master             src/enc/enc_knl/enc_knl   Huang Leilei                20200909 - 20200909
+     20200907-01   create base class and tidy up other whatever I noticed   tidyup/src/004/tidyUpWhatINoticed/master             src/common/lcu            Huang Leilei                20200910 - 20200910
+     20200914-01   synchronize hardware and software                        tidyup/src/005/syncHwAndSW/master                    src/enc/enc_knl/enc_rmd   Huang Leilei                20200914 - 20200915
+     20200914-01   synchronize hardware and software                        tidyup/src/005/syncHwAndSW/master                    src/enc/enc_knl/enc_ime   Huang Leilei                \* not stated
+     20200914-01   synchronize hardware and software                        tidyup/src/005/syncHwAndSW/master                    src/enc/enc_knl/enc_fme   Huang Leilei                \* not stated
+     20200914-01   synchronize hardware and software                        tidyup/src/005/syncHwAndSW/master                    src/enc/enc_knl/enc_rdo   Huang Leilei                \* not stated
+     20200914-02   continue of 20200907-01                                  tidyup/src/006/ContinueOfTidyUpWhatINoticed/master   src/enc/enc_knl/enc_fth   Huang Leilei, Li Tingting   \* not stated
+     20200914-03   tidy up common                                           tidyup/src/common/000/tidyUp/master                  src/common                Liu Chang, Huang Leilei     \* not stated
+     20200914-04   create enc_rfc                                           undergoing/update/src/enc_rfc/000/create/master      src/enc/enc_knl/enc_rfc   Li Tingting                 \* not stated
+    ============= ======================================================== ==================================================== ========================= =========================== =====================
 
 \
 
