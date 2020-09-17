@@ -12,8 +12,8 @@ Before Everything
 
     Please get the following items ready before you start to work.
 
-WSL
----
+(20200917) WSL
+--------------
 
     #.  enable developer mode
 
@@ -96,8 +96,8 @@ WSL
             sudo apt-get install make cmake gcc g++ ffmpeg python3 python3-pip --fix-missing
             sudo pip3 install numpy
 
-Git
----
+(20200917) Git
+--------------
 
     #.  install Git and TortoiseGit
 
@@ -110,8 +110,8 @@ Git
         \
 
 
-VS code
--------
+(20200917) VS code
+------------------
 
     #.  intall VS code
 
@@ -145,8 +145,8 @@ VS code
 
         \
 
-Xming
------
+(20200917) Xming
+----------------
 
     #.  install Xming
 
