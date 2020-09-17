@@ -10,15 +10,15 @@
 Version Control
 ===============
 
-Platform
---------
+(20200917) Platform
+-------------------
 
     |   We are running version control on https://code.aliyun.com/.
     |   Please sign up and send your username to me.
 
 
-Policy
-------
+(20200917) Policy
+-----------------
 
 *   **Always exchange files through Git.**
 *   **Always revert unnecessary changes.**
@@ -27,14 +27,14 @@ Policy
 *   **Always use "rebase" rather than "merge".**
 
 
-Deployment
-----------
+(20200917) Deployment
+---------------------
 
 .. image:: deployment.png
 
 
-Flow
-----
+(20200917) Flow
+---------------
 
 for junior developers
 .....................

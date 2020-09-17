@@ -10,8 +10,8 @@
 How-To
 ======
 
-How to Get a Simply History
----------------------------
+(20200917) How to Get a Simply History
+--------------------------------------
 
     1.  |   press F4 after gitk --all is executed
         |   (or click "View" and choose "Edit wiew..." after gitk --all is executed)
@@ -27,8 +27,8 @@ How to Get a Simply History
 
         \
 
-How to Rename
--------------
+(20200917) How to Rename
+------------------------
 
     1.  |   put cursor on the variable or function to be renamed and press F2
         |   (or right click the variable or function to be renamed and choose rename)
@@ -50,8 +50,8 @@ How to Rename
 
         \
 
-How to Revert Partially
------------------------
+(20200917) How to Revert Partially
+----------------------------------
 
     1.  open the "diff"
 

@@ -14,8 +14,8 @@ Template
     |   For a rough template, please check the following contents.
 
 
-Header
-------
+(20200917) Header
+-----------------
 
     ::
 
@@ -102,8 +102,8 @@ Header
         #endif /* __XK265_???_HPP_ */
 
 
-Source
-------
+(20200917) Source
+-----------------
 
     ::
 

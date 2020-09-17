@@ -10,8 +10,8 @@
 Coding Style
 ============
 
-Basic Rules
------------
+(20200917) Basic Rules
+----------------------
 
 revised from
 https://www.kernel.org/doc/html/latest/process/coding-style.html
@@ -231,8 +231,8 @@ and https://bitbucket.org/multicoreware/x265/wiki/Coding
 .. #.  Conditional Compilation
 
 
-Supplemental Rules
-------------------
+(20200917) Supplemental Rules
+-----------------------------
 
 collected through code review
 

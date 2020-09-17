@@ -13,8 +13,8 @@ Structure
     To maximize the reuse of codes and minimize the efforts to develop,
     I created an inheritance-based structure, where LCU acts as the base class, and other classes simply inherit from it.
 
-Class LCU
----------
+(20200917) Class LCU
+--------------------
 
     The following figure shows the contents of class LCU,
     which is made up of four groups:
@@ -183,8 +183,8 @@ Class LCU
 
         are contained
 
-Work Flow
----------
+(20200917) Work Flow
+--------------------
 
     .. image:: workFlow.png
 
@@ -212,8 +212,8 @@ Work Flow
         *   current module would call function ~LCU to release spaces
 
 
-Inheritance Consideration
--------------------------
+(20200917) Inheritance Consideration
+------------------------------------
 
     Inheritance is performed according to one basic rule:
 

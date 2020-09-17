@@ -10,8 +10,8 @@
 Script Usage
 ============
 
-build/linux
------------
+(20200917) build/linux
+----------------------
 
 *   function
 
@@ -56,8 +56,8 @@ build/linux
 
         \
 
-build/windows
--------------
+(20200917) build/windows
+------------------------
 
 *   function
 
@@ -124,8 +124,8 @@ build/windows
 
         \
 
-script/run
-----------
+(20200917) script/run
+---------------------
 
     *   function
 
@@ -162,8 +162,8 @@ script/run
 
             \
 
-script/showDiff
----------------
+(20200917) script/showDiff
+--------------------------
 
     *   function
 
