@@ -13,7 +13,7 @@ Structure
     To maximize the reuse of codes and minimize the efforts to develop,
     I created an inheritance-based structure, where LCU acts as the base class, and other classes simply inherit from it.
 
-(20200917) Class LCU
+(20200921) Class LCU
 --------------------
 
     The following figure shows the contents of class LCU,
