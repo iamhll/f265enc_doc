@@ -10,10 +10,29 @@
 How-To
 ======
 
+(20200922) How to Diff with an Arbitary Commitment
+--------------------------------------------------
+
+    #.  use diff
+
+        ::
+
+            git diff "SHA1 ID of the commitment you want to diff with"
+
+    #.  use reset
+
+        ::
+
+            "commit your changes if necessary"
+            git reset "SHA1 ID of the commitment you want to diff with"
+            "make some edit"
+            git reset "SHA1 ID of the commitment you were working with"
+
+
 (20200917) How to Get a Simply History
 --------------------------------------
 
-    1.  |   press F4 after gitk --all is executed
+    #.  |   press F4 after gitk --all is executed
         |   (or click "View" and choose "Edit wiew..." after gitk --all is executed)
         |   click "Simple history"
 
@@ -21,7 +40,7 @@ How-To
 
         \
 
-    2.  click "ok"
+    #.  click "ok"
 
         .. image:: howToGetASimpleHistory_okay.png
 
@@ -30,7 +49,7 @@ How-To
 (20200917) How to Rename
 ------------------------
 
-    1.  |   put cursor on the variable or function to be renamed and press F2
+    #.  |   put cursor on the variable or function to be renamed and press F2
         |   (or right click the variable or function to be renamed and choose rename)
         |   enter a new name and press "enter"
 
@@ -38,13 +57,13 @@ How-To
 
         \
 
-    2.  confirm the list and apply
+    #.  confirm the list and apply
 
         .. image:: howToRenameVariables_apply.png
 
         \
 
-    3.  do not forget to save changes
+    #.  do not forget to save changes
 
         .. image:: howToRenameVariables_save.png
 
@@ -53,20 +72,55 @@ How-To
 (20200917) How to Revert Partially
 ----------------------------------
 
-    1.  open the "diff"
+    #.  open the "diff"
 
         .. image:: howToRevertChangePartially_openDiff.png
 
         \
 
-    2.  right click the changes to be revereted and choose "revert the selected changes"
+    #.  right click the changes to be revereted and choose "revert the selected changes"
 
         .. image:: howToRevertChangePartially_revert.png
 
         \
 
-    3.  do not forget to save changes
+    #.  do not forget to save changes
 
         .. image:: howToRevertChangePartially_save.png
 
         \
+
+(20200923) How to Synchronize with Remote
+-----------------------------------------
+
+    #.  fetch and prune
+
+        ::
+
+            git fetch --all
+            git remote prune origin
+
+    #.  checkout
+
+        ::
+
+            git checkout "the branch you want to synchronize"
+
+    #.  if the remote is right
+
+        ::
+
+            git reset --hard origin/"the branch you want to synchronize"
+
+    #.  if your local is right
+
+        ::
+
+            git push -f [origin "the branch you want to synchronize"]
+
+    #.  if both the remote and your local are right
+
+        ::
+
+            git pull --rebase [origin "the branch you want to synchronize"]
+            git push [origin "the branch you want to synchronize"]
