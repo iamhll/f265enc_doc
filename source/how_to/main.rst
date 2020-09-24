@@ -29,10 +29,10 @@ How-To
             git reset "SHA1 ID of the commitment you were working with"
 
 
-(20200917) How to Get a Simply History
+(20200924) How to Get a Simply History
 --------------------------------------
 
-    #.  |   press F4 after gitk --all is executed
+    #.  |   press F4 after "gitk --all" is executed
         |   (or click "View" and choose "Edit wiew..." after gitk --all is executed)
         |   click "Simple history"
 
@@ -45,6 +45,9 @@ How-To
         .. image:: howToGetASimpleHistory_okay.png
 
         \
+
+    #.  "gitk --all --simplify-by-decoration" works as well
+
 
 (20200917) How to Rename
 ------------------------
