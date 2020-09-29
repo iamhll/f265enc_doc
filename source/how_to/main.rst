@@ -29,7 +29,7 @@ How-To
             git reset "SHA1 ID of the commitment you were working with"
 
 
-(20200924) How to Get a Simply History
+(20200924) How to Get a Simple History
 --------------------------------------
 
     #.  |   press F4 after "gitk --all" is executed
@@ -72,6 +72,7 @@ How-To
 
         \
 
+
 (20200917) How to Revert Partially
 ----------------------------------
 
@@ -93,8 +94,9 @@ How-To
 
         \
 
-(20200923) How to Synchronize with Remote
------------------------------------------
+
+(20200923) How to Synchronize with the Remote
+---------------------------------------------
 
     #.  fetch and prune
 
@@ -127,3 +129,105 @@ How-To
 
             git pull --rebase [origin "the branch you want to synchronize"]
             git push [origin "the branch you want to synchronize"]
+
+
+(20200929) How to Work on the Same Branch
+-----------------------------------------
+
+Flow
+....
+
+    #.  edit and commit until satisfied
+
+        ::
+
+            "edit"
+            git add
+            git commit
+
+    #.  synchronize with the remote
+
+        ::
+
+            git pull --rebase
+
+    #.  fix conflict until cleared
+
+        ::
+
+            "edit"
+            git add
+            git rebase --continue
+
+    #.  push
+
+        ::
+
+            git push
+
+Example
+.......
+
+    #.  as shown, two local depositories "a" and "b" are pointed to the same remote
+
+        .. image:: howToWorkOnTheSameBranch_twoLocal.png
+
+        \
+
+    #.  then depository "a" edited, added and committed
+
+        .. image:: howToWorkOnTheSameBranch_commitByA.png
+
+        \
+
+    #.  then depository "a" edited, added and committed more files
+
+        .. image:: howToWorkOnTheSameBranch_moreCommitsByA.png
+
+        \
+
+    #.  then depository "a" pushed.
+        fortunately, no one pushed before "a", so it works.
+
+        .. image:: howToWorkOnTheSameBranch_pushByA.png 
+
+        \
+
+    #.  meanwhile, depository "b" edited, added and committed many times.
+        and the commits are about the same file changed by "a".
+
+        .. image:: howToWorkOnTheSameBranch_manyCommitsByB.png
+
+        \
+
+    #.  as a wiser commiter, depository "b" pulled with rebase before pushing.
+        as expected, conflicts are reported
+
+        .. image:: howToWorkOnTheSameBranch_pullByB.png
+
+        \
+
+    #.  for the first commitment, depository "b" chose to use both of them and go on with "git rebase --continue"
+
+        .. image:: howToWorkOnTheSameBranch_rebaseContinueByB.png
+
+        \
+
+    #.  for the second commitment, depository "b" chose to use his one and go on with "git rebase --continue"
+        for the first commitment, depository "b" chose to use their one and go on with "git rebase --ski["
+
+        .. image:: howToWorkOnTheSameBranch_rebaseSkipByB.png
+
+        \
+
+    #.  after all conflicts are resolved, depository "b" pushed
+
+        .. image:: howToWorkOnTheSameBranch_pushByB.png
+
+        \
+
+    #.  now depository "a" could pull
+
+        .. image:: howToWorkOnTheSameBranch_pullByA.png
+
+        \
