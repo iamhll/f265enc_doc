@@ -125,7 +125,7 @@ Introduction
     ================================== ===========================
 
 
-(20200921) Task List
+(20201008) Task List
 --------------------
 
 gantt
@@ -134,29 +134,47 @@ gantt
 
 \
 
+
+.. table:: **2020.10**
+    :align: left
+    :widths: auto
+
+    ============= ========= ============================== =============== =============== =================
+     Number        Task      Start Point                    Target Module   Owner           Status
+    ============= ========= ============================== =============== =============== =================
+     20200910-01   comb up   tidyup/src/008/combUp/master   /src/           Huang Leilei    **not started**
+    ============= ========= ============================== =============== =============== =================
+
+\
+
 .. table:: **2020.09**
     :align: left
     :widths: auto
 
-    ============= ======================================================== ===================================================== =========================== =========================== =====================
-     Number        Task                                                     Start Point                                           Target Module               Owner                       Status
-    ============= ======================================================== ===================================================== =========================== =========================== =====================
-     20200907-01   create base class and tidy up other whatever I noticed   tidyup/src/003/tidyUpWhatINoticed/master              /src/enc/enc_knl/enc_rmd/   Huang Leilei                20200901 - 20200902
-     20200907-01   create base class and tidy up other whatever I noticed   tidyup/src/003/tidyUpWhatINoticed/master              /src/enc/enc_knl/enc_ime/   Huang Leilei                20200907 - 20200908
-     20200907-01   create base class and tidy up other whatever I noticed   tidyup/src/003/tidyUpWhatINoticed/master              /src/enc/enc_knl/enc_fme/   Huang Leilei                20200908 - 20200908
-     20200907-01   create base class and tidy up other whatever I noticed   tidyup/src/003/tidyUpWhatINoticed/master              /src/enc/enc_knl/enc_rdo/   Huang Leilei                20200908 - 20200909
-     20200907-01   create base class and tidy up other whatever I noticed   tidyup/src/003/tidyUpWhatINoticed/master              /src/enc/enc_knl/enc_knl/   Huang Leilei                20200909 - 20200909
-     20200907-01   create base class and tidy up other whatever I noticed   tidyup/src/003/tidyUpWhatINoticed/master              /src/common/lcu/            Huang Leilei                20200910 - 20200910
-     20200914-01   synchronize hardware and software                        tidyup/src/004/syncHwAndSW/master                     /src/enc/enc_knl/enc_rmd/   Huang Leilei                20200914 - 20200915
-     20200914-01   synchronize hardware and software                        tidyup/src/004/syncHwAndSW/master                     /src/enc/enc_knl/enc_ime/   Huang Leilei                20200916 - 20200916
-     20200914-01   synchronize hardware and software                        tidyup/src/004/syncHwAndSW/master                     /src/enc/enc_knl/enc_fme/   Huang Leilei                20200917 - 20200917
-     20200914-01   synchronize hardware and software                        tidyup/src/004/syncHwAndSW/master                     /src/enc/enc_knl/enc_rdo/   Huang Leilei                \* not stated
-     20200914-02   continue of 20200907-01                                  tidyup/src/005/ContinueOfTidyUpWhatINoticed/master    /src/enc/enc_knl/enc_fth/   Huang Leilei                20200916 - 20200917
-     20200914-03   tidy up common                                           tidyup/src/common/000/tidyUp/master                   /src/common/                Liu Chang                   \* 20200916
-     20200914-04   create rfc                                               update/src/common/rfc/000/create/master               /src/common/rfc/            Li Tingting                 \* 20200917
-     20200921-01   continue of 20200907-01                                  tidyup/src/005/ContinueOfTidyUpWhatINoticed/master    /src/enc/enc_knl/enc_ilf/   Hou Bingjing                \* 20200921
-     20200921-01   continue of 20200907-01                                  tidyup/src/005/ContinueOfTidyUpWhatINoticed/master    /src/enc/enc_knl/enc_e_c/   Zou Yuliang                 \* 20200921
-    ============= ======================================================== ===================================================== =========================== =========================== =====================
+    ============= ======================================================== ============================================================== =================================== =============== =====================
+     Number        Task                                                     Start Point                                                    Target Module                       Owner           Status
+    ============= ======================================================== ============================================================== =================================== =============== =====================
+     20200907-01   create base class and tidy up other whatever I noticed   tidyup/src/003/tidyUpWhatINoticed/master                       /src/enc/enc_knl/enc_rmd/           Huang Leilei    20200901 - 20200902
+     20200907-01   create base class and tidy up other whatever I noticed   tidyup/src/003/tidyUpWhatINoticed/master                       /src/enc/enc_knl/enc_ime/           Huang Leilei    20200907 - 20200908
+     20200907-01   create base class and tidy up other whatever I noticed   tidyup/src/003/tidyUpWhatINoticed/master                       /src/enc/enc_knl/enc_fme/           Huang Leilei    20200908 - 20200908
+     20200907-01   create base class and tidy up other whatever I noticed   tidyup/src/003/tidyUpWhatINoticed/master                       /src/enc/enc_knl/enc_rdo/           Huang Leilei    20200908 - 20200909
+     20200907-01   create base class and tidy up other whatever I noticed   tidyup/src/003/tidyUpWhatINoticed/master                       /src/enc/enc_knl/enc_knl/           Huang Leilei    20200909 - 20200909
+     20200907-01   create base class and tidy up other whatever I noticed   tidyup/src/003/tidyUpWhatINoticed/master                       /src/common/lcu/                    Huang Leilei    20200910 - 20200910
+     20200914-01   synchronize hardware and software                        tidyup/src/004/syncHwAndSW/master                              /src/enc/enc_knl/enc_rmd/           Huang Leilei    20200914 - 20200915
+     20200914-01   synchronize hardware and software                        tidyup/src/004/syncHwAndSW/master                              /src/enc/enc_knl/enc_ime/           Huang Leilei    20200916 - 20200916
+     20200914-01   synchronize hardware and software                        tidyup/src/004/syncHwAndSW/master                              /src/enc/enc_knl/enc_fme/           Huang Leilei    20200917 - 20200917
+     20200914-01   synchronize hardware and software                        tidyup/src/004/syncHwAndSW/master                              /src/enc/enc_knl/enc_rdo/           Huang Leilei    20200918 - 20200918
+     20200914-02   continue of 20200907-01                                  tidyup/src/005/continueOfTidyUpWhatINoticed/master             /src/enc/enc_knl/enc_fth/           Huang Leilei    20200916 - 20200917
+     20200914-03   create rfc                                               update/src/common/rfc/000/create/master                        /src/common/rfc/                    Li Tingting     20200917 - 20200930
+     20200921-01   continue of 20200907-01                                  tidyup/src/005/continueOfTidyUpWhatINoticed/master             /src/enc/enc_knl/enc_rec/           Liu Chang       20200918 - 20200924
+     20200921-01   continue of 20200907-01                                  tidyup/src/005/continueOfTidyUpWhatINoticed/master             /src/enc/enc_knl/enc_ilf/           Hou Bingjing    20200921 - 20200924
+     20200921-01   continue of 20200907-01                                  tidyup/src/005/continueOfTidyUpWhatINoticed/master             /src/enc/enc_knl/enc_e_c/           Zou Yuliang     20200922 - 20200924
+     20200921-02   comb down                                                tidyup/src/007/combDown/master                                 /src/enc/enc_knl/enc_rmd/           Huang Leilei    20200925 - 20200925
+     20200921-02   comb down                                                tidyup/src/007/combDown/master                                 /src/enc/enc_knl/enc_ime/           Huang Leilei    20200929 - 20200929
+     20200921-02   comb down                                                tidyup/src/007/combDown/master                                 /src/enc/enc_knl/enc_fme/           Huang Leilei    20201008 - 20201008
+     20200921-02   comb down                                                tidyup/src/007/combDown/master                                 /src/enc/enc_knl/enc_rdo/           Huang Leilei    **not started**
+     20200924-01   continue of 20200921-01                                  tidyup/src/006/continueOfContinueOfTidyUpWhatINoticed/master   /src/enc/enc_knl/enc_rec,ilf,e_c/   L_C, HBJ, ZYL   20200924 - 20200930
+    ============= ======================================================== ============================================================== =================================== =============== =====================
 
 \
 
@@ -167,17 +185,17 @@ gantt
     ============= ================ ==================================================== ============================ ============== =====================
      Number        Task             Start Point                                          Target Module                Owner          Status
     ============= ================ ==================================================== ============================ ============== =====================
-     20200803-01   restructure      tidyup/src/002/restructure/master                    /src/enc/enc_core/enc_fth/   Li Tingting    20200804 - 20200805
-     20200803-01   restructure      tidyup/src/002/restructure/master                    /src/enc/enc_core/enc_rmd/   Huang Leilei   20200803 - 20200803
-     20200803-01   restructure      tidyup/src/002/restructure/master                    /src/enc/enc_core/enc_ime/   Shi Chunxin    20200806 - 20200810
-     20200803-01   restructure      tidyup/src/002/restructure/master                    /src/enc/enc_core/enc_fme/   Huang Leilei   20200805 - 20200806
-     20200803-01   restructure      tidyup/src/002/restructure/master                    /src/enc/enc_core/enc_rdo/   Huang Leilei   20200806 - 20200810
-     20200803-01   restructure      tidyup/src/002/restructure/master                    /src/enc/enc_core/enc_ilf/   Hou Bingjing   20200806 - 20200810
-     20200803-01   restructure      tidyup/src/002/restructure/master                    /src/enc/enc_core/enc_e_c/   Zou Yuliang    20200806 - 20200810
-     20200811-01   optimize         tidyup/src/003/optimize/master                       /src/enc/enc_core/enc_fth/   Li Tingting    20200811 - 20200813
-     20200811-01   optimize         tidyup/src/003/optimize/master                       /src/enc/enc_core/enc_ime/   Shi Chunxin    20200811 - 20200811
-     20200811-01   optimize         tidyup/src/003/optimize/master                       /src/enc/enc_core/enc_ilf/   Hou Bingjing   20200811 - 20200817
-     20200811-01   optimize         tidyup/src/003/optimize/master                       /src/enc/enc_core/enc_e_c/   Zou Yuliang    20200811 - 20200820
+     20200803-01   restructure      tidyup/src/001/restructure/master                    /src/enc/enc_core/enc_fth/   Li Tingting    20200804 - 20200805
+     20200803-01   restructure      tidyup/src/001/restructure/master                    /src/enc/enc_core/enc_rmd/   Huang Leilei   20200803 - 20200803
+     20200803-01   restructure      tidyup/src/001/restructure/master                    /src/enc/enc_core/enc_ime/   Shi Chunxin    20200806 - 20200810
+     20200803-01   restructure      tidyup/src/001/restructure/master                    /src/enc/enc_core/enc_fme/   Huang Leilei   20200805 - 20200806
+     20200803-01   restructure      tidyup/src/001/restructure/master                    /src/enc/enc_core/enc_rdo/   Huang Leilei   20200806 - 20200810
+     20200803-01   restructure      tidyup/src/001/restructure/master                    /src/enc/enc_core/enc_ilf/   Hou Bingjing   20200806 - 20200810
+     20200803-01   restructure      tidyup/src/001/restructure/master                    /src/enc/enc_core/enc_e_c/   Zou Yuliang    20200806 - 20200810
+     20200811-01   optimize         tidyup/src/002/optimize/master                       /src/enc/enc_core/enc_fth/   Li Tingting    20200811 - 20200813
+     20200811-01   optimize         tidyup/src/002/optimize/master                       /src/enc/enc_core/enc_ime/   Shi Chunxin    20200811 - 20200811
+     20200811-01   optimize         tidyup/src/002/optimize/master                       /src/enc/enc_core/enc_ilf/   Hou Bingjing   20200811 - 20200817
+     20200811-01   optimize         tidyup/src/002/optimize/master                       /src/enc/enc_core/enc_e_c/   Zou Yuliang    20200811 - 20200820
      20200814-01   add IinP logic   update/src/enc/enc_core/enc_ime/001/addIinP/master   /src/enc/enc_core/enc_ime/   Huang Leilei   20200814 - 20200828
     ============= ================ ==================================================== ============================ ============== =====================
 
@@ -193,7 +211,7 @@ gantt
      20200713-01   relocate files according to new project tree   /                                                   /                                        Huang Leilei                20200713 - 20200714
      20200713-02   maintain                                       /                                                   /build/                                  Huang Leilei, Shi Chunxin   20200713 - 20200714
      20200713-03   maintain                                       /                                                   /script/                                 Huang Leilei                20200713 - 20200714
-     20200713-04   tidy up macro-definitions                      /                                                   /src/sys/                                Huang Leilei                \* Not Started
+     20200713-04   tidy up macro-definitions                      /                                                   /src/sys/                                Huang Leilei                **not started**
      20200713-05   tidy up configurations                         /                                                   /src/sys/                                Huang Leilei, Shi Chunxin   20200715 - 20200716
      20200715-01   optimize cfg.cpp                               /                                                   /src/sys/                                Huang Leilei                20200715 - 20200716
      20200717-01   update according to cfg_typ.hpp                tidyup/sys/cfg/000/restructure/global               /src/sys/                                Huang Leilei                20200720 - 20200720
@@ -215,13 +233,6 @@ gantt
      20200723-01   clean warnings                                 tidyup/src/000/cleanWarnings/master                 /src/common/                             Huang Leilei                20200729 - 20200729
      20200723-01   clean warnings                                 tidyup/src/000/cleanWarnings/master                 /src/sys/                                Huang Leilei                20200729 - 20200729
      20200723-02   add R_C logic                                  update/src/enc/enc_core/enc_ime/000/addRc/master    /src/enc/enc_core/enc_ime/               Hao Zhijian                 20200728 - 20200811
-     20200730-01   list functions and members                     tidyup/src/001/listFuncAndMember/master             /src/enc/enc_core/enc_fth/               Li Tingting                 \* Not Started
-     20200730-01   list functions and members                     tidyup/src/001/listFuncAndMember/master             /src/enc/enc_core/enc_rmd/               Huang Leilei                \* Not Started
-     20200730-01   list functions and members                     tidyup/src/001/listFuncAndMember/master             /src/enc/enc_core/enc_ime/               Shi Chunxin                 \* Not Started
-     20200730-01   list functions and members                     tidyup/src/001/listFuncAndMember/master             /src/enc/enc_core/enc_fme/               Huang Leilei                \* Not Started
-     20200730-01   list functions and members                     tidyup/src/001/listFuncAndMember/master             /src/enc/enc_core/enc_rdo/               Huang Leilei                \* Not Started
-     20200730-01   list functions and members                     tidyup/src/001/listFuncAndMember/master             /src/enc/enc_core/enc_ilf/               Hou Bingjing                \* 20200803 - 20200803
-     20200730-01   list functions and members                     tidyup/src/001/listFuncAndMember/master             /src/enc/enc_core/enc_e_c/               Zou Yuliang                 \* 20200803 - 20200803
     ============= ============================================== =================================================== ======================================== =========================== ========================
 
 \
