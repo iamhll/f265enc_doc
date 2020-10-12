@@ -125,7 +125,7 @@ Introduction
     ================================== ===========================
 
 
-(20201008) Task List
+(20201012) Task List
 --------------------
 
 gantt
@@ -139,11 +139,15 @@ gantt
     :align: left
     :widths: auto
 
-    ============= ========= ============================== =============== =============== =================
-     Number        Task      Start Point                    Target Module   Owner           Status
-    ============= ========= ============================== =============== =============== =================
-     20200910-01   comb up   tidyup/src/008/combUp/master   /src/           Huang Leilei    **not started**
-    ============= ========= ============================== =============== =============== =================
+    ============= =========== ======================================== =============== =============== =====================
+     Number        Task        Start Point                              Target Module   Owner           Status
+    ============= =========== ======================================== =============== =============== =====================
+     20201010-01   comb up     tidyup/src/008/combUp/master             /src/           Huang Leilei    20201010 - 20201012
+     20201013-01   comb down   tidyup/src/009/continueOfCombUp/master   /src/common     Liu Chang       **not started**
+     20201013-02   comb down   tidyup/src/009/continueOfCombUp/master   /src/fth, dmp   Li Tingting     **not started**
+     20201014-01   comb down   tidyup/src/009/continueOfCombUp/master   /src/ilf        Hou Bingjing    **not started**
+     20201015-01   comb down   tidyup/src/009/continueOfCombUp/master   /src/e_c        Zou Yuliang     **not started**
+    ============= =========== ======================================== =============== =============== =====================
 
 \
 
@@ -172,7 +176,7 @@ gantt
      20200921-02   comb down                                                tidyup/src/007/combDown/master                                 /src/enc/enc_knl/enc_rmd/           Huang Leilei    20200925 - 20200925
      20200921-02   comb down                                                tidyup/src/007/combDown/master                                 /src/enc/enc_knl/enc_ime/           Huang Leilei    20200929 - 20200929
      20200921-02   comb down                                                tidyup/src/007/combDown/master                                 /src/enc/enc_knl/enc_fme/           Huang Leilei    20201008 - 20201008
-     20200921-02   comb down                                                tidyup/src/007/combDown/master                                 /src/enc/enc_knl/enc_rdo/           Huang Leilei    **not started**
+     20200921-02   comb down                                                tidyup/src/007/combDown/master                                 /src/enc/enc_knl/enc_rdo/           Huang Leilei    20201009 - 20201009
      20200924-01   continue of 20200921-01                                  tidyup/src/006/continueOfContinueOfTidyUpWhatINoticed/master   /src/enc/enc_knl/enc_rec,ilf,e_c/   L_C, HBJ, ZYL   20200924 - 20200930
     ============= ======================================================== ============================================================== =================================== =============== =====================
 
