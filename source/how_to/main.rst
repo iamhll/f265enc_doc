@@ -19,6 +19,8 @@ How-To
 
             git diff "SHA1 ID of the commitment you want to diff with"
 
+        \
+
     #.  use reset
 
         ::
@@ -27,6 +29,8 @@ How-To
             git reset "SHA1 ID of the commitment you want to diff with"
             "make some edit"
             git reset "SHA1 ID of the commitment you were working with"
+
+        \
 
 
 (20200924) How to Get a Simple History
@@ -105,11 +109,15 @@ How-To
             git fetch --all
             git remote prune origin
 
+        \
+
     #.  checkout
 
         ::
 
             git checkout "the branch you want to synchronize"
+
+        \
 
     #.  if the remote is right
 
@@ -117,11 +125,15 @@ How-To
 
             git reset --hard origin/"the branch you want to synchronize"
 
+        \
+
     #.  if your local is right
 
         ::
 
             git push -f [origin "the branch you want to synchronize"]
+
+        \
 
     #.  if both the remote and your local are right
 
@@ -129,6 +141,8 @@ How-To
 
             git pull --rebase [origin "the branch you want to synchronize"]
             git push [origin "the branch you want to synchronize"]
+
+        \
 
 
 (20200929) How to Work on the Same Branch
@@ -145,11 +159,15 @@ Flow
             git add
             git commit
 
+        \
+
     #.  synchronize with the remote
 
         ::
 
             git pull --rebase
+
+        \
 
     #.  fix conflict until cleared
 
@@ -159,11 +177,15 @@ Flow
             git add
             git rebase --continue
 
+        \
+
     #.  push
 
         ::
 
             git push
+
+        \
 
 Example
 .......
