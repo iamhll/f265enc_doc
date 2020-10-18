@@ -30,6 +30,8 @@ and https://bitbucket.org/multicoreware/x265/wiki/Coding
             statements
         }
 
+    \
+
 #.  Breaking long lines and strings
 
     keep lines within 80 characters.
@@ -50,6 +52,8 @@ and https://bitbucket.org/multicoreware/x265/wiki/Coding
             statements
         }
 
+    \
+
     for functions,
     put the opening brace at the beginning of the next line
 
@@ -59,6 +63,8 @@ and https://bitbucket.org/multicoreware/x265/wiki/Coding
         {
             statements;
         }
+
+    \
 
     for single statement,
     omit braces
@@ -73,6 +79,8 @@ and https://bitbucket.org/multicoreware/x265/wiki/Coding
     but for the following cases,
     still keep them
 
+    \
+
     ::
 
         if (condition) {
@@ -83,6 +91,8 @@ and https://bitbucket.org/multicoreware/x265/wiki/Coding
             one statement;
         }
 
+    \
+
     ::
 
         if (condition) {
@@ -92,6 +102,8 @@ and https://bitbucket.org/multicoreware/x265/wiki/Coding
             }
         }
 
+    \
+
 #.  Spaces
 
     use a space after the follwing keywords
@@ -100,17 +112,23 @@ and https://bitbucket.org/multicoreware/x265/wiki/Coding
 
         if, switch, case, for, do, while
 
+    \
+
     but not with the following keywords
 
     ::
 
         sizeof, typeof, alignof, __attribute__
 
+    \
+
     do not add spaces around parenthesized expressions
 
     ::
 
         if (condition)
+
+    \
 
     adjacent * to the data name or function name
 
@@ -119,12 +137,16 @@ and https://bitbucket.org/multicoreware/x265/wiki/Coding
         int *variable;
         int *function(int variable);
 
+    \
+
     use one space on each side of the follwing operators
     (where, &, \*, ... are used as binary or ternary operators)
 
     ::
 
         =, +, -, <, >, *, /, %, |, &, ^, <=, >=, ==, !=, ?, :
+
+    \
 
     do not use space after the following operators
     (where, &, \*, ... are used as unary operators)
@@ -133,11 +155,15 @@ and https://bitbucket.org/multicoreware/x265/wiki/Coding
 
         &, *, +, -, ~, !, sizeof, typeof, alignof, __attribute__, defined
 
+    \
+
     do not use space before the postfix increment or decrement unary operators
 
     ::
 
         ++, --
+
+    \
 
     do not use space after the prefix increment or decrement unary operators
 
@@ -145,11 +171,15 @@ and https://bitbucket.org/multicoreware/x265/wiki/Coding
 
         ++, --
 
+    \
+
     do not use space around member operators
 
     ::
 
         ., ->
+
+    \
 
     do not leave trailing whitespace at the ends of lines
 
@@ -164,6 +194,8 @@ and https://bitbucket.org/multicoreware/x265/wiki/Coding
         int datCst
         int getPre()
 
+    \
+
     use big camel case or small camel case with postfix _t for type
 
     ::
@@ -171,12 +203,16 @@ and https://bitbucket.org/multicoreware/x265/wiki/Coding
         Pixel* pxlRec
         pxl_t* pxlRec
 
+    \
+
     use big camel case or capitalization for class
 
     ::
 
         int Encoder::run()
         int RMD::run()
+
+    \
 
     use big camel case or capitalization for defintions or enums
 
@@ -188,6 +224,8 @@ and https://bitbucket.org/multicoreware/x265/wiki/Coding
             SATD_R
         }
 
+    \
+
     use the following prefix or postfix to indicate variable types
 
     ::
@@ -197,6 +235,8 @@ and https://bitbucket.org/multicoreware/x265/wiki/Coding
         g_, global variables
         b, boolen varibles (could be ommitted for names like flgSplit)
         _t, defined types
+
+    \
 
 .. #.  Typedefs
 ..
@@ -250,9 +290,13 @@ collected through code review
 
         #define C    A + B      // wrong
 
+    \
+
     ::
 
         #define C    (A + B)    // right
+
+    \
 
 #.  Magic number
 
