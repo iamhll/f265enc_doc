@@ -125,10 +125,8 @@ Introduction
     ================================== ===========================
 
 
-(20201012) Task List
+(20201019) Task List
 --------------------
-
-gantt
 
 .. image:: task.png
 
@@ -139,15 +137,16 @@ gantt
     :align: left
     :widths: auto
 
-    ============= =========== ======================================== =============== =============== =====================
-     Number        Task        Start Point                              Target Module   Owner           Status
-    ============= =========== ======================================== =============== =============== =====================
-     20201010-01   comb up     tidyup/src/008/combUp/master             /src/           Huang Leilei    20201010 - 20201012
-     20201013-01   comb down   tidyup/src/009/continueOfCombUp/master   /src/common     Liu Chang       **not started**
-     20201013-02   comb down   tidyup/src/009/continueOfCombUp/master   /src/fth, dmp   Li Tingting     **not started**
-     20201014-01   comb down   tidyup/src/009/continueOfCombUp/master   /src/ilf        Hou Bingjing    **not started**
-     20201015-01   comb down   tidyup/src/009/continueOfCombUp/master   /src/e_c        Zou Yuliang     **not started**
-    ============= =========== ======================================== =============== =============== =====================
+    ============= ============ ============================================= ========================= =============== =====================
+     Number        Task         Start Point                                   Target Module             Owner           Status
+    ============= ============ ============================================= ========================= =============== =====================
+     20201010-01   comb up      tidyup/src/008/combUp/master                  /src/                     Huang Leilei    20201010 - 20201012
+     20201013-01   comb down    tidyup/src/common/000/tidyUp/master           /src/common               Liu Chang       **20201013 -**
+     20201013-02   comb down    update/src/common/rfc/000/create/master(2)    /src/fth, dmp             Li Tingting     20201013 - 20201015
+     20201014-01   comb down    tidyup/src/009/continueOfCombDown/master      /src/ilf                  Hou Bingjing    **20201014 -**
+     20201015-01   comb down    tidyup/src/009/continueOfCombDown/master      /src/e_c                  Zou Yuliang     **20201015 -**
+     20201018-01   create doc   update/doc/000/createDocForEachClass/master   /src/rmd, ime, fme, rdo   Huang Leilei    **20201018 -**
+    ============= ============ ============================================= ========================= =============== =====================
 
 \
 
