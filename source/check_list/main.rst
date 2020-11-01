@@ -84,6 +84,60 @@ Check List
     \
 
 
+(20201101) Item Status
+----------------------
+
+.. table::
+    :align: left
+    :widths: auto
+
+    ================================== =============================
+     Items                              Status
+    ================================== =============================
+     /build/linux/*                     reset on 2020.11.01
+     /build/windows/*                   **to be fixed**
+     \-
+     /doc/description/RMD*              **to be updated**
+     /doc/description/IME*              **to be updated**
+     /doc/description/FME*              **to be updated**
+     /doc/description/RDO*              **to be updated**
+     /doc/description/ILF*              **to be updated**
+     /doc/description/E_C*              **to be updated**
+     /doc/description/E_D*              **to be updated**
+     /doc/description/RFC*              **to be updated**
+     \-
+     /script/fitCst/*                   **to be maintained**
+     /script/getBdRate/*                reset on 2020.11.01
+     /script/getInfo/*                  reset on 2020.11.01
+     /script/getPsnr/*                  reset on 2020.11.01
+     /script/run/*                      reset on 2020.11.01
+     /script/runChipsMedia/*            reset on 2020.11.01
+     /script/runHM/*                    reset on 2020.11.01
+     /script/runVeriSilicon/*           **to be maintained**
+     /script/runX265/*                  reset on 2020.11.01
+     /script/showDiff/*                 reset on 2020.11.01
+     \-
+     /src/common/common*                reset on 2020.11.01
+     /src/common/lcu/*                  reset on 2020.11.01
+     /src/common/rfc/*                  reset on 2020.11.01
+     /src/sys/cfg/*                     reset on 2020.11.01
+     /src/sys/fbs/*                     **to be tidied up**
+     /src/sys/defines_enc.hpp           reset on 2020.11.01
+     /src/sys/types_enc.hpp             reset on 2020.11.01
+     /src/enc/enc_top.cpp               reset on 2020.11.01
+     /src/enc/enc_knl/enc_fth/*         reset on 2020.11.01
+     /src/enc/enc_knl/enc_rmd/*         reset on 2020.11.01
+     /src/enc/enc_knl/enc_ime/*         reset on 2020.11.01
+     /src/enc/enc_knl/enc_fme/*         reset on 2020.11.01
+     /src/enc/enc_knl/enc_rdo/*         reset on 2020.11.01
+     /src/enc/enc_knl/enc_rec/*         reset on 2020.11.01
+     /src/enc/enc_knl/enc_ilf/*         **to be further tidied up**
+     /src/enc/enc_knl/enc_e_c/*         **to be further tidied up**
+     /src/enc/enc_knl/enc_dmp/*         reset on 2020.11.01
+     /src/enc/enc_knl/enc_knl*          reset on 2020.11.01
+     /src/dec/dec_knl/dec_e_d/*         **to be integrated**
+    ================================== =============================
+
 (20201014) Performance Status
 -----------------------------
 

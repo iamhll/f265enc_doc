@@ -10,7 +10,7 @@
 Introduction
 ============
 
-(20200921) Project Tree
+(20201101) Project Tree
 -----------------------
 
 ::
@@ -36,9 +36,11 @@ Introduction
     │   └── runListUpdate.sh       update
     └── src                        source codes
         ├── sys                    system level codes
-        │   └── cfg                configuration related codes
+        │   ├── cfg                configuration related codes
+        │   └── fbs                bit steam related codes
         ├── common                 common codes
-        │   └── lcu                base class LCU related codes
+        │   ├── lcu                base class LCU related codes
+        │   └── rfc                reference frame configuration related codes
         ├── enc                    encoder related codes
         │   ├── enc_knl            encoder kernel related codes
         │   │   ├── enc_fth        fetch related codes
@@ -96,7 +98,7 @@ Introduction
     .. include:: cfg.rst
 
 
-(20200921) Owner
+(20201101) Owner
 ----------------
 
 .. table::
@@ -106,46 +108,53 @@ Introduction
     ================================== ===========================
      Directory                          Owner
     ================================== ===========================
-     /build/linux/                      Huang Leilei
-     /build/windows/                    Huang Leilei
-     /doc/                              ...
-     /script/                           Huang Leilei
-     /src/sys/                          Huang Leilei
-     /src/enc/enc_knl/enc_fth/          Li Tingting
-     /src/enc/enc_knl/enc_rmd/          Huang Leilei
-     /src/enc/enc_knl/enc_ime/          Huang Leilei, Shi Chunxin
-     /src/enc/enc_knl/enc_fme/          Huang Leilei, Shi Chunxin
-     /src/enc/enc_knl/enc_rdo/          Huang Leilei, Liu Xun
-     /src/enc/enc_knl/enc_ilf/          Liu Xun, Hou Bingjing
-     /src/enc/enc_knl/enc_e_c/          Cai Yujie, Zou Yuliang
-     /src/enc/enc_knl/enc_dmp/          Li Tingting
-     /src/enc/enc_knl/enc_knl.(c|h)pp   Huang Leilei
-     /src/enc/enc_top.(c|h)pp           Huang Leilei
-     /src/common/                       Huang Leilei, Liu Chang
+     /build/linux/*                     Huang Leilei
+     /build/windows/*                   Huang Leilei
+     /doc/*                             ...
+     /script/*                          Huang Leilei
+     /src/common/common*                Huang Leilei, Liu Chang
+     /src/common/lcu/*                  Huang Leilei, Liu Chang
+     /src/common/rfc/*                  Li Tingting
+     /src/sys/cfg/*                     Huang Leilei
+     /src/sys/fbs/*                     Zou Yuliang
+     /src/sys/defines_enc.hpp           Huang Leilei
+     /src/sys/types_enc.hpp             Huang Leilei
+     /src/enc/enc_top.cpp               Huang Leilei
+     /src/enc/enc_knl/enc_fth/*         Li Tingting
+     /src/enc/enc_knl/enc_rmd/*         Huang Leilei
+     /src/enc/enc_knl/enc_ime/*         Huang Leilei, Shi Chunxin
+     /src/enc/enc_knl/enc_fme/*         Huang Leilei, Shi Chunxin
+     /src/enc/enc_knl/enc_rdo/*         Huang Leilei, Liu Xun
+     /src/enc/enc_knl/enc_rec/*         Huang Leilei, Liu Xun
+     /src/enc/enc_knl/enc_ilf/*         Liu Xun, Hou Bingjing
+     /src/enc/enc_knl/enc_e_c/*         Cai Yujie, Zou Yuliang
+     /src/enc/enc_knl/enc_dmp/*         Li Tingting
+     /src/enc/enc_knl/enc_knl*          Huang Leilei
+     /src/dec/dec_knl/dec_e_d/*         Cai Yujie
     ================================== ===========================
 
 
-(20201019) Task List
+(20201101) Task List
 --------------------
 
 .. image:: task.png
 
 \
 
-
 .. table:: **2020.10**
     :align: left
     :widths: auto
 
     ============= ============ ============================================= ========================= =============== =====================
-     Number        Task         Start Point                                   Target Module             Owner           Status
+     Number        Task         Start Point                                   Target Items              Owner           Status
     ============= ============ ============================================= ========================= =============== =====================
      20201010-01   comb up      tidyup/src/008/combUp/master                  /src/                     Huang Leilei    20201010 - 20201012
-     20201013-01   comb down    tidyup/src/common/000/tidyUp/master           /src/common               Liu Chang       **20201013 -**
+     20201013-01   comb down    tidyup/src/common/000/tidyUp/master           /src/common               Liu Chang       20201013 - 20201023
      20201013-02   comb down    update/src/common/rfc/000/create/master(2)    /src/fth, dmp             Li Tingting     20201013 - 20201015
-     20201014-01   comb down    tidyup/src/009/continueOfCombDown/master      /src/ilf                  Hou Bingjing    **20201014 -**
-     20201015-01   comb down    tidyup/src/009/continueOfCombDown/master      /src/e_c                  Zou Yuliang     **20201015 -**
-     20201018-01   create doc   update/doc/000/createDocForEachClass/master   /src/rmd, ime, fme, rdo   Huang Leilei    **20201018 -**
+     20201014-01   comb down    tidyup/src/009/continueOfCombDown/master      /src/ilf                  Hou Bingjing    20201014 - 20201025
+     20201015-01   comb down    tidyup/src/009/continueOfCombDown/master      /src/e_c                  Zou Yuliang     20201015 - 20201025
+     20201018-01   create doc   update/doc/000/createDocForEachClass/master   /src/rmd, ime, fme, rdo   Huang Leilei    20201018 - 20201025
+     20201026-01   final tune   tidyup/src/010/finalTune/master               /src                      Huang Leilei    20201026 - 20201101
     ============= ============ ============================================= ========================= =============== =====================
 
 \
@@ -155,7 +164,7 @@ Introduction
     :widths: auto
 
     ============= ======================================================== ============================================================== =================================== =============== =====================
-     Number        Task                                                     Start Point                                                    Target Module                       Owner           Status
+     Number        Task                                                     Start Point                                                    Target Items                        Owner           Status
     ============= ======================================================== ============================================================== =================================== =============== =====================
      20200907-01   create base class and tidy up other whatever I noticed   tidyup/src/003/tidyUpWhatINoticed/master                       /src/enc/enc_knl/enc_rmd/           Huang Leilei    20200901 - 20200902
      20200907-01   create base class and tidy up other whatever I noticed   tidyup/src/003/tidyUpWhatINoticed/master                       /src/enc/enc_knl/enc_ime/           Huang Leilei    20200907 - 20200908
@@ -186,7 +195,7 @@ Introduction
     :widths: auto
 
     ============= ================ ==================================================== ============================ ============== =====================
-     Number        Task             Start Point                                          Target Module                Owner          Status
+     Number        Task             Start Point                                          Target Items                 Owner          Status
     ============= ================ ==================================================== ============================ ============== =====================
      20200803-01   restructure      tidyup/src/001/restructure/master                    /src/enc/enc_core/enc_fth/   Li Tingting    20200804 - 20200805
      20200803-01   restructure      tidyup/src/001/restructure/master                    /src/enc/enc_core/enc_rmd/   Huang Leilei   20200803 - 20200803
@@ -209,7 +218,7 @@ Introduction
     :widths: auto
 
     ============= ============================================== =================================================== ======================================== =========================== ========================
-     Number        Task                                           Start Point                                         Target Module                            Owner                       Status
+     Number        Task                                           Start Point                                         Target Items                             Owner                       Status
     ============= ============================================== =================================================== ======================================== =========================== ========================
      20200713-01   relocate files according to new project tree   /                                                   /                                        Huang Leilei                20200713 - 20200714
      20200713-02   maintain                                       /                                                   /build/                                  Huang Leilei, Shi Chunxin   20200713 - 20200714
