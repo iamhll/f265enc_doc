@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="2020.09.07 - 2020.10.17" company="" webLink="" view-date="2020-11-19" view-index="0" gantt-divider-location="448" resource-divider-location="604" version="2.8.10" locale="zh_CN">
+    <description/>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="名称" width="315" order="0"/>
+        <field id="tpd6" name="持续" width="68" order="1"/>
+        <field id="tpd7" name="完成" width="61" order="2"/>
+        <option id="taskLabelLeft" value="resources"/>
+        <option id="taskLabelRight" value="advancement"/>
+        <option id="color.recent"><![CDATA[#cccccc #99ccff #ff6666 #ffcc99 #ccffcc #ffffcc #ff6600 #ffff00 #66ccff #f4f4f4]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="名称" width="415" order="0"/>
+        <field id="1" name="默认角色" width="185" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="没找到">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="2020" month="10" date="1" type="HOLIDAY"/>
+        <date year="2020" month="10" date="2" type="HOLIDAY"/>
+        <date year="2020" month="10" date="3" type="HOLIDAY"/>
+        <date year="2020" month="10" date="4" type="HOLIDAY"/>
+        <date year="2020" month="10" date="5" type="HOLIDAY"/>
+        <date year="2020" month="10" date="6" type="HOLIDAY"/>
+        <date year="2020" month="10" date="7" type="HOLIDAY"/>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="450" name="进行中" color="#ffcc99" meeting="false" start="2020-11-23" duration="70" complete="0" thirdDate="2020-09-21" thirdDate-constraint="0" expand="true">
+            <task id="452" name="F265" color="#cccccc" meeting="false" start="2020-11-23" duration="30" complete="0" thirdDate="2020-09-21" thirdDate-constraint="0" expand="true">
+                <task id="1075" name="实现R_C" color="#99ccff" meeting="false" start="2020-11-23" duration="10" complete="0" thirdDate="2020-11-13" thirdDate-constraint="0" expand="true"/>
+                <task id="1648" name="FIT版Mrg" color="#99ccff" meeting="false" start="2020-11-23" duration="10" complete="0" thirdDate="2020-11-13" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="1956" name="性能调优" color="#99ccff" meeting="false" start="2020-12-07" duration="10" complete="0" thirdDate="2020-11-13" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="1552" name="硬件化R_C" color="#99ccff" meeting="false" start="2020-12-21" duration="5" complete="0" thirdDate="2020-11-13" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="1440" name="硬件化IIP" color="#99ccff" meeting="false" start="2020-12-28" duration="5" complete="0" thirdDate="2020-11-13" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="1995" name="硬件化Mrg" color="#99ccff" meeting="false" start="2020-12-21" duration="10" complete="0" thirdDate="2020-11-13" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+            </task>
+            <task id="1444" name="H265" color="#cccccc" meeting="false" start="2020-11-23" duration="70" complete="0" thirdDate="2020-09-21" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+                <task id="1944" name="整合顶层" color="#99ccff" meeting="false" start="2020-11-23" duration="5" complete="0" thirdDate="2020-11-13" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="1624" name="去除signed关键字（RMD）" color="#99ccff" meeting="false" start="2020-11-30" duration="5" complete="0" thirdDate="2020-11-13" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="1626" name="去除signed关键字（IME）" color="#99ccff" meeting="false" start="2020-12-07" duration="5" complete="0" thirdDate="2020-11-13" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="1628" name="去除signed关键字（FME）" color="#99ccff" meeting="false" start="2020-12-14" duration="5" complete="0" thirdDate="2020-11-13" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="1446" name="整理RDO（RES）" color="#99ccff" meeting="false" start="2020-12-21" duration="5" complete="0" thirdDate="2020-11-13" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="1450" name="整理RDO（REC）" color="#99ccff" meeting="false" start="2020-12-28" duration="5" complete="0" thirdDate="2020-11-13" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="1452" name="整理RDO（CST）" color="#99ccff" meeting="false" start="2021-01-04" duration="5" complete="0" thirdDate="2020-11-13" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="1893" name="整理RDO（剩余部分）" color="#99ccff" meeting="false" start="2021-01-11" duration="5" complete="0" thirdDate="2020-11-13" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="1685" name="添加IIP" color="#99ccff" meeting="false" start="2021-01-18" duration="5" complete="0" thirdDate="2020-11-13" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="1687" name="添加R_C" color="#99ccff" meeting="false" start="2021-01-25" duration="5" complete="0" thirdDate="2020-11-13" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="1448" name="重写ILF" color="#99ccff" meeting="false" start="2021-02-01" duration="10" complete="0" thirdDate="2020-11-13" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="1454" name="重写SAO" color="#99ccff" meeting="false" start="2021-02-15" duration="10" complete="0" thirdDate="2020-11-13" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+            </task>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="黄磊磊" function="Default:0" contacts="" phone=""/>
+        <resource id="1" name="蔡宇杰" function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="施淳信" function="Default:0" contacts="" phone=""/>
+        <resource id="3" name="刘迅" function="Default:0" contacts="" phone=""/>
+        <resource id="5" name="刘畅" function="Default:0" contacts="" phone=""/>
+        <resource id="4" name="李婷婷" function="Default:0" contacts="" phone=""/>
+        <resource id="6" name="侯秉镜" function="Default:0" contacts="" phone=""/>
+        <resource id="7" name="邹宇亮" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="1075" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="1440" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="1446" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="1448" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="1450" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="1452" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="1454" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="1552" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="1624" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="1626" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="1628" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="1685" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="1687" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="1893" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="1944" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="1956" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="1648" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="1995" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
