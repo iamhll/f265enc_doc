@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="2020.09.07 - 2020.10.17" company="" webLink="" view-date="2020-10-13" view-index="0" gantt-divider-location="519" resource-divider-location="604" version="2.8.10" locale="zh_CN">
+<?xml version="1.0" encoding="UTF-8"?><project name="2020.09.07 - 2020.10.17" company="" webLink="" view-date="2020-10-14" view-index="0" gantt-divider-location="531" resource-divider-location="604" version="2.8.10" locale="zh_CN">
     <description/>
     <view zooming-state="default:3" id="gantt-chart">
-        <field id="tpd3" name="名称" width="380" order="0"/>
-        <field id="tpd6" name="持续" width="68" order="1"/>
-        <field id="tpd7" name="完成" width="67" order="2"/>
+        <field id="tpd3" name="名称" width="375" order="0"/>
+        <field id="tpd6" name="持续" width="77" order="1"/>
+        <field id="tpd7" name="完成" width="75" order="2"/>
         <option id="taskLabelLeft" value="resources"/>
         <option id="taskLabelRight" value="advancement"/>
         <option id="color.recent"><![CDATA[#99ccff #ff6666 #cccccc #ffcc99 #ccffcc #ffffcc #ff6600 #ffff00 #66ccff #f4f4f4]]></option>
@@ -43,44 +43,31 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="450" name="进行中" color="#ffcc99" meeting="false" start="2020-10-19" duration="20" complete="13" thirdDate="2020-09-21" thirdDate-constraint="0" expand="true">
-            <task id="452" name="F265" color="#cccccc" meeting="false" start="2020-11-02" duration="10" complete="12" thirdDate="2020-09-21" thirdDate-constraint="0" expand="true">
-                <task id="19" name="加入MRG、SKP" color="#ff6666" meeting="false" start="2020-11-02" duration="10" complete="50" thirdDate="2020-09-28" thirdDate-constraint="0" expand="true"/>
-                <task id="18" name="加入IIP" color="#ff6666" meeting="false" start="2020-11-02" duration="10" complete="0" thirdDate="2020-09-28" thirdDate-constraint="0" expand="true"/>
-                <task id="721" name="更新common文档" color="#ccffcc" meeting="false" start="2020-11-02" duration="5" complete="0" thirdDate="2020-10-12" thirdDate-constraint="0" expand="true"/>
-                <task id="722" name="更新FTH、DMP、RFC文档" color="#ccffcc" meeting="false" start="2020-11-02" duration="5" complete="0" thirdDate="2020-09-28" thirdDate-constraint="0" expand="true"/>
-                <task id="723" name="更新ILF文档" color="#ccffcc" meeting="false" start="2020-11-02" duration="5" complete="0" thirdDate="2020-09-28" thirdDate-constraint="0" expand="true"/>
+        <task id="450" name="进行中" color="#ffcc99" meeting="false" start="2020-10-21" duration="13" complete="42" thirdDate="2020-09-21" thirdDate-constraint="0" expand="true">
+            <task id="452" name="F265" color="#cccccc" meeting="false" start="2020-11-02" duration="5" complete="60" thirdDate="2020-09-21" thirdDate-constraint="0" expand="true">
+                <task id="721" name="更新common文档" color="#ccffcc" meeting="false" start="2020-11-02" duration="5" complete="80" thirdDate="2020-10-12" thirdDate-constraint="0" expand="true"/>
+                <task id="722" name="更新RFC文档" color="#ccffcc" meeting="false" start="2020-11-02" duration="5" complete="80" thirdDate="2020-09-28" thirdDate-constraint="0" expand="true"/>
+                <task id="723" name="更新ILF文档" color="#ccffcc" meeting="false" start="2020-11-02" duration="5" complete="80" thirdDate="2020-09-28" thirdDate-constraint="0" expand="true"/>
                 <task id="724" name="更新E_C文档" color="#ccffcc" meeting="false" start="2020-11-02" duration="5" complete="0" thirdDate="2020-09-28" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="11" name="H265" color="#cccccc" meeting="false" start="2020-10-19" duration="15" complete="14" thirdDate="2020-09-21" thirdDate-constraint="0" expand="true">
-                <task id="604" name="整理核验各类环境" color="#ff6666" meeting="false" start="2020-10-19" duration="5" complete="66" thirdDate="2020-10-12" thirdDate-constraint="0" expand="true"/>
+            <task id="11" name="H265" color="#cccccc" meeting="false" start="2020-10-21" duration="13" complete="36" thirdDate="2020-09-21" thirdDate-constraint="0" expand="true">
                 <task id="608" name="优化ILF" color="#99ccff" meeting="false" start="2020-10-26" duration="5" complete="80" thirdDate="2020-09-14" thirdDate-constraint="0" expand="true"/>
                 <task id="607" name="优化ITF" color="#99ccff" meeting="false" start="2020-10-26" duration="5" complete="0" thirdDate="2020-09-14" thirdDate-constraint="0" expand="true"/>
-                <task id="877" name="熟悉新H265" color="#99ccff" meeting="false" start="2020-10-22" duration="2" complete="0" thirdDate="2020-10-08" thirdDate-constraint="0" expand="true">
-                    <depend id="332" type="2" difference="0" hardness="Rubber"/>
-                    <depend id="334" type="2" difference="0" hardness="Rubber"/>
-                    <depend id="336" type="2" difference="0" hardness="Rubber"/>
-                </task>
-                <task id="617" name="更新RMD、IME、FME、RDO文档" color="#ccffcc" meeting="false" start="2020-10-26" duration="5" complete="0" thirdDate="2020-10-12" thirdDate-constraint="0" expand="true">
-                    <depend id="28" type="2" difference="0" hardness="Rubber"/>
-                    <depend id="140" type="2" difference="0" hardness="Rubber"/>
+                <task id="332" name="梳理串联ITF" color="#99ccff" meeting="false" start="2020-10-21" duration="5" complete="80" thirdDate="2020-10-08" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
                     <depend id="149" type="2" difference="0" hardness="Rubber"/>
                 </task>
-                <task id="332" name="梳理串联ITF" color="#99ccff" meeting="false" start="2020-10-26" duration="5" complete="0" thirdDate="2020-10-08" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
-                    <depend id="149" type="2" difference="0" hardness="Rubber"/>
-                </task>
-                <task id="334" name="梳理串联ILF" color="#99ccff" meeting="false" start="2020-10-26" duration="5" complete="0" thirdDate="2020-10-08" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+                <task id="334" name="梳理串联ILF" color="#99ccff" meeting="false" start="2020-10-21" duration="5" complete="50" thirdDate="2020-10-08" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
                     <depend id="140" type="2" difference="0" hardness="Rubber"/>
                 </task>
-                <task id="336" name="梳理串联E_C" color="#99ccff" meeting="false" start="2020-10-26" duration="5" complete="0" thirdDate="2020-10-08" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+                <task id="336" name="梳理串联E_C" color="#99ccff" meeting="false" start="2020-10-21" duration="5" complete="80" thirdDate="2020-10-08" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
                     <depend id="28" type="2" difference="0" hardness="Rubber"/>
                 </task>
-                <task id="149" name="更新FTH、DMP、RFC文档" color="#ccffcc" meeting="false" start="2020-11-02" duration="5" complete="0" thirdDate="2020-10-12" thirdDate-constraint="0" expand="true"/>
+                <task id="149" name="更新RFC文档" color="#ccffcc" meeting="false" start="2020-11-02" duration="5" complete="0" thirdDate="2020-10-12" thirdDate-constraint="0" expand="true"/>
                 <task id="140" name="更新ILF文档" color="#ccffcc" meeting="false" start="2020-11-02" duration="5" complete="0" thirdDate="2020-10-12" thirdDate-constraint="0" expand="true"/>
                 <task id="28" name="更新E_C文档" color="#ccffcc" meeting="false" start="2020-11-02" duration="5" complete="0" thirdDate="2020-10-12" thirdDate-constraint="0" expand="true"/>
             </task>
         </task>
-        <task id="41" name="已完成" color="#ffcc99" meeting="false" start="2020-09-07" duration="35" complete="100" thirdDate="2020-09-07" thirdDate-constraint="0" expand="false">
+        <task id="41" name="已完成" color="#ffcc99" meeting="false" start="2020-09-07" duration="45" complete="100" thirdDate="2020-09-07" thirdDate-constraint="0" expand="false">
             <task id="4" name="建立软件工作流程和相关文档" color="#cccccc" meeting="false" start="2020-09-07" duration="30" complete="100" thirdDate="2020-09-07" thirdDate-constraint="0" expand="false">
                 <task id="5" name="建立软件工作流程和相关文档" color="#ccffcc" meeting="false" start="2020-09-07" duration="10" complete="100" thirdDate="2020-09-07" thirdDate-constraint="0" expand="true">
                     <depend id="770" type="2" difference="0" hardness="Rubber"/>
@@ -90,7 +77,7 @@
                 </task>
                 <task id="770" name="迭代调整" color="#ccffcc" meeting="false" start="2020-10-12" duration="10" complete="100" thirdDate="2020-10-12" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="42" name="F265" color="#cccccc" meeting="false" start="2020-09-07" duration="35" complete="100" thirdDate="2020-09-07" thirdDate-constraint="0" expand="false">
+            <task id="42" name="F265" color="#cccccc" meeting="false" start="2020-09-07" duration="45" complete="100" thirdDate="2020-09-07" thirdDate-constraint="0" expand="false">
                 <task id="44" name="整理RMD、IME、FME、RDO" color="#ff6666" meeting="false" start="2020-09-07" duration="5" complete="100" thirdDate="2020-09-07" thirdDate-constraint="0" expand="true"/>
                 <task id="14" name="整理FTH、DMP" color="#99ccff" meeting="false" start="2020-09-14" duration="5" complete="100" thirdDate="2020-09-14" thirdDate-constraint="0" expand="true">
                     <depend id="214" type="2" difference="0" hardness="Rubber"/>
@@ -99,7 +86,7 @@
                     <depend id="587" type="2" difference="0" hardness="Rubber"/>
                 </task>
                 <task id="213" name="调试基于E_C的P帧RDO" color="#ff6666" meeting="false" start="2020-09-14" duration="13" complete="100" thirdDate="2020-09-14" thirdDate-constraint="0" expand="true">
-                    <depend id="19" type="2" difference="0" hardness="Rubber"/>
+                    <depend id="964" type="2" difference="0" hardness="Rubber"/>
                 </task>
                 <task id="212" name="集成RFC" color="#99ccff" meeting="false" start="2020-09-14" duration="13" complete="100" thirdDate="2020-09-14" thirdDate-constraint="0" expand="true"/>
                 <task id="214" name="重构REC" color="#99ccff" meeting="false" start="2020-09-21" duration="8" complete="100" thirdDate="2020-09-21" thirdDate-constraint="0" expand="true"/>
@@ -151,8 +138,10 @@
                 </task>
                 <task id="883" name="整理核验各类环境" color="#ff6666" meeting="false" start="2020-10-16" duration="5" complete="100" thirdDate="2020-10-12" thirdDate-constraint="0" expand="true"/>
                 <task id="961" name="最终调整" color="#ff6666" meeting="false" start="2020-10-26" duration="5" complete="100" thirdDate="2020-10-12" thirdDate-constraint="0" expand="true"/>
+                <task id="964" name="加入MRG、SKP" color="#ff6666" meeting="false" start="2020-11-02" duration="10" complete="100" thirdDate="2020-09-28" thirdDate-constraint="0" expand="true"/>
+                <task id="965" name="加入IIP" color="#ff6666" meeting="false" start="2020-11-02" duration="10" complete="100" thirdDate="2020-09-28" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="45" name="H265" color="#cccccc" meeting="false" start="2020-09-07" duration="25" complete="100" thirdDate="2020-09-07" thirdDate-constraint="0" expand="false">
+            <task id="45" name="H265" color="#cccccc" meeting="false" start="2020-09-07" duration="35" complete="100" thirdDate="2020-09-07" thirdDate-constraint="0" expand="false">
                 <task id="76" name="调试emulator" color="#ff6666" meeting="false" start="2020-09-07" duration="5" complete="100" thirdDate="2020-09-07" thirdDate-constraint="0" expand="true"/>
                 <task id="46" name="修复时序问题" color="#ff6666" meeting="false" start="2020-09-07" duration="5" complete="100" thirdDate="2020-09-07" thirdDate-constraint="0" expand="true"/>
                 <task id="47" name="修复逻辑问题" color="#ff6666" meeting="false" start="2020-09-07" duration="5" complete="100" thirdDate="2020-09-07" thirdDate-constraint="0" expand="true"/>
@@ -165,12 +154,23 @@
                     <depend id="332" type="2" difference="0" hardness="Rubber"/>
                     <depend id="334" type="2" difference="0" hardness="Rubber"/>
                     <depend id="336" type="2" difference="0" hardness="Rubber"/>
-                    <depend id="877" type="2" difference="0" hardness="Rubber"/>
+                    <depend id="963" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="963" name="熟悉新H265" color="#99ccff" meeting="false" start="2020-10-19" duration="2" complete="100" thirdDate="2020-10-08" thirdDate-constraint="0" expand="true">
+                    <depend id="332" type="2" difference="0" hardness="Rubber"/>
+                    <depend id="334" type="2" difference="0" hardness="Rubber"/>
+                    <depend id="336" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="962" name="整理核验各类环境" color="#ff6666" meeting="false" start="2020-10-19" duration="5" complete="100" thirdDate="2020-10-12" thirdDate-constraint="0" expand="true"/>
+                <task id="983" name="更新RMD、IME、FME文档" color="#ccffcc" meeting="false" start="2020-10-26" duration="5" complete="100" thirdDate="2020-10-12" thirdDate-constraint="0" expand="true">
+                    <depend id="28" type="2" difference="0" hardness="Rubber"/>
+                    <depend id="140" type="2" difference="0" hardness="Rubber"/>
+                    <depend id="149" type="2" difference="0" hardness="Rubber"/>
                 </task>
             </task>
         </task>
         <task id="463" name="计划中" color="#ffcc99" meeting="false" start="2020-11-23" duration="5" complete="0" thirdDate="2020-10-26" thirdDate-constraint="0" expand="false">
-            <task id="471" name="F265" color="#cccccc" meeting="false" start="2020-11-23" duration="5" complete="0" thirdDate="2020-10-26" thirdDate-constraint="0" expand="true">
+            <task id="471" name="F265" color="#cccccc" meeting="false" start="2020-11-23" duration="5" complete="0" thirdDate="2020-10-26" thirdDate-constraint="0" expand="false">
                 <task id="464" name="加入R_C" color="#99ccff" meeting="false" start="2020-11-23" duration="5" complete="0" thirdDate="2020-10-26" thirdDate-constraint="0" expand="true"/>
                 <task id="465" name="加入新特性" color="#99ccff" meeting="false" start="2020-11-23" duration="5" complete="0" thirdDate="2020-10-26" thirdDate-constraint="0" expand="true"/>
             </task>
@@ -201,17 +201,17 @@
         <allocation task-id="587" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="609" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="770" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
-        <allocation task-id="604" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
-        <allocation task-id="18" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
-        <allocation task-id="617" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="880" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="882" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="883" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="954" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="961" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="962" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="965" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="983" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="76" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="213" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
-        <allocation task-id="19" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="964" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="46" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="217" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="613" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
@@ -227,24 +227,24 @@
         <allocation task-id="552" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="589" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="722" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
-        <allocation task-id="877" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="332" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="149" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="953" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="963" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="215" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="589" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="723" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
-        <allocation task-id="877" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="334" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="140" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="955" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="963" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="216" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="589" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
-        <allocation task-id="877" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="724" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="336" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="28" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="958" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="963" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
     </allocations>
     <vacations/>
     <previous/>
