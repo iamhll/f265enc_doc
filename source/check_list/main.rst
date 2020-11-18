@@ -10,110 +10,111 @@
 Check List
 ==========
 
-(20200917) Major Developments
+(20201117) Major Developments
 -----------------------------
 
-    .. table::
-        :align: left
-        :widths: auto
-    
-        +---------+-----------+---------------------------------------------+-----------------------------------------------------------------------------------------------------+
-        | Subject | Main Step | Sub Step                                    | Check List                                                                                          |
-        +=========+===========+=============================================+=====================================================================================================+
-        | manager | assign    | define tasks                                | manager must make tasks clear and as individual as possible                                         |
-        |         |           +---------------------------------------------+-----------------------------------------------------------------------------------------------------+
-        |         |           | define start points                         | manager should creat start points and push them to the remote                                       |
-        |         |           +---------------------------------------------+-----------------------------------------------------------------------------------------------------+
-        |         |           | define target modules, due dates and owners | manager must make target modules, due dates and owners clear and release them with Gantt chart      |
-        +---------+-----------+---------------------------------------------+-----------------------------------------------------------------------------------------------------+
-        | owner   | execute   | create branch                               | | if multiple owners or modules are involved,                                                       |
-        |         |           |                                             | |   owner should create a sub-branch named with start_point/owner/module                            |
-        |         |           |                                             | |   (for example, undergoing/update/src/000/cleanWarnings/HLL/rmd)                                  |
-        |         |           |                                             | | else                                                                                              |
-        |         |           |                                             | |   owner could directly works on the start point                                                   |
-        |         |           |                                             | |   (for example, undergoing/update/src/enc_core/enc_ime/000/addRc/master)                          |
-        |         |           +---------------------------------------------+-----------------------------------------------------------------------------------------------------+
-        |         |           | edit                                        | | owner should divide his edits into atomic ones                                                    |
-        |         |           |                                             | | owner should code according to the coding style and template                                      |
-        |         |           +---------------------------------------------+-----------------------------------------------------------------------------------------------------+
-        |         |           | commit                                      | | **owner must avoid dos-format files:**                                                            |
-        |         |           |                                             | |   **cd script; ./runListUpdate.sh**                                                               |
-        |         |           |                                             | | owner should avoid warnings:                                                                      |
-        |         |           |                                             | |   cd ref/linux; ./build; make                                                                     |
-        |         |           |                                             | | **if decision logic keeps the same, owner must make sure the results also keep the same:**        |
-        |         |           |                                             | |   **cd ref/linux; ./build; make; ./f265 -c ../../script/run/f265.cfg**                            |
-        |         |           +---------------------------------------------+-----------------------------------------------------------------------------------------------------+
-        |         |           | push                                        | | **if decision logic keeps the same, owner must make sure the results also keep the same:**        |
-        |         |           |                                             | |   **cd script/run; make run; diff runs.log sessionTest/runs.log**                                 |
-        |         |           |                                             | | if decision logic is optimized, owner should note down the B-D rate log:                          |
-        |         |           |                                             | |   modify the SIZE_GOP in script/run/f265.sh according to your target frame type                   |
-        |         |           |                                             | |   cd script/run; make run; cp sessionTest/bdRate.log ../../doc/performance/bdRate.log             |
-        |         |           +---------------------------------------------+-----------------------------------------------------------------------------------------------------+
-        |         |           | feedback                                    | | if one task is finished,                                                                          |
-        |         |           |                                             | |   owner should notify the corresponding manager as quick as possible                              |
-        |         |           |                                             | | else                                                                                              |
-        |         |           |                                             | |   owner should report the percentage of completeness on daily meetings                            |
-        +---------+-----------+---------------------------------------------+-----------------------------------------------------------------------------------------------------+
-        | manager | verify    | check                                       | manager must rerun the generation of runs.log and bdRate.log                                        |
-        |         |           +---------------------------------------------+-----------------------------------------------------------------------------------------------------+
-        |         |           | review                                      | | manager must check the differences with master and point out any violation noticed                |
-        |         |           |                                             | | violations include but not limited to                                                             |
-        |         |           |                                             | |   dos-format files and tailing blanks                                                             |
-        |         |           |                                             | |   improper logic like listing all situations instead of using for-loop                            |
-        |         |           |                                             | |   improper coding styles like improper naming, magic numbers                                      |
-        |         |           +---------------------------------------------+-----------------------------------------------------------------------------------------------------+
-        |         |           | feedback                                    | | if another iteration is needed                                                                    |
-        |         |           |                                             | |   manager must note down TODOs, push them to the remote and notify corresponding owners           |
-        |         |           |                                             | | else                                                                                              |
-        |         |           |                                             | |   manager must merge the branch to master by                                                      |
-        |         |           |                                             | |   (G) copying the branch from global tree to local tree                                           |
-        |         |           |                                             | |   (L) minimizing differences with master                                                          |
-        |         |           |                                             | |   (L) doing more checks with local scripts, **which is missing for f265enc**                      |
-        |         |           |                                             | |   (L) updating the version number and descriptions in enc_top.cpp                                 |
-        |         |           |                                             | |   (L) modifying branch prefix from undergoing to merged                                           |
-        |         |           |                                             | |   (L) making a shortcut from master to branch and create a tag                                    |
-        |         |           |                                             | |   (L) pushing master, the newly-add tag and the newly-merged branch to orgin, aliyun and github   |
-        |         |           |                                             | |   (L) copying the branch from local tree back to global tree                                      |
-        |         |           |                                             | |   (G) making a shortcut from master to branch and create a tag                                    |
-        |         |           |                                             | |   (G) pushing master, the newly-add tag and the newly-merged branch to aliyun                     |
-        |         |           |                                             | |   (G) protecting the merged branch on git@code.aliyun.com:llhuang/f265enc_global.git              |
-        |         |           |                                             | |   (S) notify all developers about the change on master                                            |
-        |         |           |                                             | | (G for global, L for local, S for system)                                                         |
-        +---------+-----------+---------------------------------------------+-----------------------------------------------------------------------------------------------------+
+.. table::
+    :align: left
+    :widths: auto
 
-    \
+    +---------+-----------+---------------------------------------------+-----------------------------------------------------------------------------------------------------------+
+    | Subject | Main Step | Sub Step                                    | Check List                                                                                                |
+    +=========+===========+=============================================+===========================================================================================================+
+    | manager | assign    | define tasks                                | manager must make tasks clear and as individual as possible                                               |
+    |         |           +---------------------------------------------+-----------------------------------------------------------------------------------------------------------+
+    |         |           | define start points                         | manager should creat start points and push them to the remote                                             |
+    |         |           +---------------------------------------------+-----------------------------------------------------------------------------------------------------------+
+    |         |           | define target modules, due dates and owners | manager must make target modules, due dates and owners clear and release them with Gantt chart            |
+    +---------+-----------+---------------------------------------------+-----------------------------------------------------------------------------------------------------------+
+    | owner   | execute   | create branch                               | | if multiple owners or modules are involved,                                                             |
+    |         |           |                                             | |   owner should create a sub-branch named with start_point/owner/module                                  |
+    |         |           |                                             | |   (for example, undergoing/update/src/000/cleanWarnings/HLL/rmd)                                        |
+    |         |           |                                             | | else                                                                                                    |
+    |         |           |                                             | |   owner could directly works on the start point                                                         |
+    |         |           |                                             | |   (for example, undergoing/update/src/enc_core/enc_ime/000/addRc/master)                                |
+    |         |           +---------------------------------------------+-----------------------------------------------------------------------------------------------------------+
+    |         |           | edit                                        | | owner should divide his edits into atomic ones                                                          |
+    |         |           |                                             | | owner should code according to the coding style and template                                            |
+    |         |           +---------------------------------------------+-----------------------------------------------------------------------------------------------------------+
+    |         |           | commit                                      | | **owner must avoid dos-format files**                                                                   |
+    |         |           |                                             | |   **perform dos2unix to newly added files**                                                             |
+    |         |           |                                             | | **owner must avoid compilation warnings**                                                               |
+    |         |           |                                             | |   **cd ref/linux; ./run.sh**                                                                            |
+    |         |           |                                             | | **owner must make sure the results also keep the same, if decision logic keeps the same:**              |
+    |         |           |                                             | |   **cd ref/linux; ./run.sh**                                                                            |
+    |         |           +---------------------------------------------+-----------------------------------------------------------------------------------------------------------+
+    |         |           | push                                        | | **owner must make sure the results also keep the same, if decision logic keeps the same:**              |
+    |         |           |                                             | |   **cd script/run; make run; diff runs.log sessionTest/runs.log**                                       |
+    |         |           |                                             | | **owner should note down the B-D rate log, if decision logic is optimized:**                            |
+    |         |           |                                             | |   **modify the DATA_PRD_INTRA in script/run/f265.sh according to your target frame type**               |
+    |         |           |                                             | |   **cd script/run; make run; cp sessionTest/bdRate.log ../../doc/performance/bdRate.log**               |
+    |         |           +---------------------------------------------+-----------------------------------------------------------------------------------------------------------+
+    |         |           | feedback                                    | | if one task is finished,                                                                                |
+    |         |           |                                             | |   owner should notify the corresponding manager as quick as possible                                    |
+    |         |           |                                             | | else                                                                                                    |
+    |         |           |                                             | |   owner should report the percentage of completeness on daily meetings                                  |
+    +---------+-----------+---------------------------------------------+-----------------------------------------------------------------------------------------------------------+
+    | manager | verify    | check                                       | manager must rerun the generation of runs.log and bdRate.log                                              |
+    |         |           +---------------------------------------------+-----------------------------------------------------------------------------------------------------------+
+    |         |           | review                                      | | manager must check the differences with master and point out any violation noticed                      |
+    |         |           |                                             | | violations include but not limited to                                                                   |
+    |         |           |                                             | |   dos-format files and tailing blanks                                                                   |
+    |         |           |                                             | |   improper logic like listing all situations instead of using for-loop                                  |
+    |         |           |                                             | |   improper coding styles like improper naming, magic numbers                                            |
+    |         |           +---------------------------------------------+-----------------------------------------------------------------------------------------------------------+
+    |         |           | feedback                                    | | if another iteration is needed                                                                          |
+    |         |           |                                             | |   manager must note down TODOs, push them to the remote and notify corresponding owners                 |
+    |         |           |                                             | | else                                                                                                    |
+    |         |           |                                             | |   manager must merge the branch to master by                                                            |
+    |         |           |                                             | |   (L) copying the branch from global tree to local tree                                                 |
+    |         |           |                                             | |   (L) doing more checks like                                                                            |
+    |         |           |                                             | |       checking file formats and tailing blanks                                                          |
+    |         |           |                                             | |       checking single run results under linux env (warnings cleaned, yuv matched)                       |
+    |         |           |                                             | |       checking single run results under windows env (yuv matched, md5sum matched or b-d rate optimized) |
+    |         |           |                                             | |       checking regression run results under linux env (log matched)                                     |
+    |         |           |                                             | |       checking modifications including logics, styles and differences with master                       |
+    |         |           |                                             | |   (L) updating the version number and descriptions in enc_top.cpp                                       |
+    |         |           |                                             | |   (L) modifying branch prefix from undergoing to merged                                                 |
+    |         |           |                                             | |   (L) making a shortcut from master to branch and create a tag                                          |
+    |         |           |                                             | |   (L) pushing master, the newly-add tag and the newly-merged branch to orgin, aliyun and github         |
+    |         |           |                                             | |   (G) copying the branch from local tree back to global tree                                            |
+    |         |           |                                             | |   (G) making a shortcut from master to branch and create a tag                                          |
+    |         |           |                                             | |   (G) pushing master, the newly-add tag and the newly-merged branch to aliyun                           |
+    |         |           |                                             | |   (G) protecting the merged branch on git@code.aliyun.com:llhuang/f265enc_global.git                    |
+    |         |           |                                             | |   (S) notify all developers about the change on master                                                  |
+    |         |           |                                             | | (G for global, L for local, S for system)                                                               |
+    +---------+-----------+---------------------------------------------+-----------------------------------------------------------------------------------------------------------+
 
-
-(20201101) Item Status
+(20201117) Item Status
 ----------------------
 
 .. table::
     :align: left
     :widths: auto
 
-    ================================== =============================
+    ================================== ======================================================
      Items                              Status
-    ================================== =============================
+    ================================== ======================================================
      /build/linux/*                     reset on 2020.11.01
-     /build/windows/*                   **to be fixed**
+     /build/windows/*                   **fixed on 2020.11.10 (but rebroken on 2020.11.12)**
      \-
-     /doc/description/RMD*              **to be updated**
-     /doc/description/IME*              **to be updated**
-     /doc/description/FME*              **to be updated**
-     /doc/description/RDO*              **to be updated**
-     /doc/description/ILF*              **to be updated**
-     /doc/description/E_C*              **to be updated**
-     /doc/description/E_D*              **to be updated**
-     /doc/description/RFC*              **to be updated**
+     /doc/description/RMD*              created on 2020.11.02
+     /doc/description/IME*              created on 2020.11.02
+     /doc/description/FME*              created on 2020.11.02
+     /doc/description/RDO*              created on 2020.11.02
+     /doc/description/ILF*              **to be created**
+     /doc/description/E_C*              **to be created**
+     /doc/description/E_D*              **to be created**
+     /doc/description/RFC*              **to be created**
      \-
-     /script/fitCst/*                   **to be maintained**
+     /script/fitCst/*                   **to be reset**
      /script/getBdRate/*                reset on 2020.11.01
      /script/getInfo/*                  reset on 2020.11.01
      /script/getPsnr/*                  reset on 2020.11.01
      /script/run/*                      reset on 2020.11.01
      /script/runChipsMedia/*            reset on 2020.11.01
      /script/runHM/*                    reset on 2020.11.01
-     /script/runVeriSilicon/*           **to be maintained**
+     /script/runVeriSilicon/*           **to be reset**
      /script/runX265/*                  reset on 2020.11.01
      /script/showDiff/*                 reset on 2020.11.01
      \-
@@ -121,7 +122,7 @@ Check List
      /src/common/lcu/*                  reset on 2020.11.01
      /src/common/rfc/*                  reset on 2020.11.01
      /src/sys/cfg/*                     reset on 2020.11.01
-     /src/sys/fbs/*                     **to be tidied up**
+     /src/sys/fbs/*                     **to be reset**
      /src/sys/defines_enc.hpp           reset on 2020.11.01
      /src/sys/types_enc.hpp             reset on 2020.11.01
      /src/enc/enc_top.cpp               reset on 2020.11.01
@@ -131,25 +132,23 @@ Check List
      /src/enc/enc_knl/enc_fme/*         reset on 2020.11.01
      /src/enc/enc_knl/enc_rdo/*         reset on 2020.11.01
      /src/enc/enc_knl/enc_rec/*         reset on 2020.11.01
-     /src/enc/enc_knl/enc_ilf/*         **to be further tidied up**
-     /src/enc/enc_knl/enc_e_c/*         **to be further tidied up**
+     /src/enc/enc_knl/enc_ilf/*         reset on 2020.11.16
+     /src/enc/enc_knl/enc_e_c/*         **to be reset**
      /src/enc/enc_knl/enc_dmp/*         reset on 2020.11.01
      /src/enc/enc_knl/enc_knl*          reset on 2020.11.01
-     /src/dec/dec_knl/dec_e_d/*         **to be integrated**
-    ================================== =============================
+     /src/dec/dec_knl/dec_e_d/*         **to be reset**
+    ================================== ======================================================
 
-(20201014) Performance Status
+(20201117) Performance Status
 -----------------------------
 
-    |   X265 environment: http://www.openasic.org:8080/svn/f265enc/x265/reference/x265_3.0
-    |   Chips&Media environment: http://viplab.fudan.edu.cn/vip/boards/1/topics/35464
-    |   VeriSilicon environment: http://viplab.fudan.edu.cn/vip/boards/1/topics/35463
-    |   (which will be move to git)
+    |   X265 environment: script/runX265
+    |   Chips&Media environment: script/runChipsMedia
+    |   VeriSilicon environment: script/runVeriSilicon
     |   Distance between LCU size 32 and 64 is about 10%
     |   Distance between with and without IinP is about 5%
     |   Distance between with and without Skip&Merge is about 5%
     |   Distance between with and without Nx2N parition is about 5%
-
 
 Hardware Version
 ................
