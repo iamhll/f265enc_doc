@@ -14,7 +14,7 @@ Template
     |   For a rough template, please check the following contents.
 
 
-(20200917) Header
+(20201117) Header
 -----------------
 
     ::
@@ -41,7 +41,7 @@ Template
             //  Filename       : ???.h
             //  Author         : ???
             //  Created        : ????-??-??
-            //  Description    : header file for ???
+            //  Description    : ??? related headers
             //
         //------------------------------------------------------------------------------
             //
@@ -102,7 +102,7 @@ Template
         #endif /* __XK265_???_HPP_ */
 
 
-(20200917) Source
+(20201117) Source
 -----------------
 
     ::
@@ -129,7 +129,7 @@ Template
             //  Filename       : ???.cpp
             //  Author         : ???
             //  Created        : ????-??-??
-            //  Description    : source file for ???
+            //  Description    : ??? related codes (???)
             //
         //------------------------------------------------------------------------------
             //
