@@ -10,12 +10,12 @@
 Script Usage
 ============
 
-(20200917) build/linux
-----------------------
+(20201117) build/linux (linux env)
+----------------------------------
 
 *   function
 
-    #.  build environment for linux
+    #.  generate the executable file
 
     \
 
@@ -40,8 +40,6 @@ Script Usage
 
         .. image:: buildLinuxStep2.png
 
-        **sure, we will fix those warnings later**
-
         \
 
     #.  modify script/run/f265.cfg according to your requests, for example
@@ -56,12 +54,21 @@ Script Usage
 
         \
 
-(20200917) build/windows
-------------------------
+    #.  by the way, I have created a single-run script "run.sh" which
+
+        *   executes step 1, 2 and 4.
+        *   calculates the md5sum of f265.hevc
+        *   decodes f265.hevc
+        *   compares the decoded yuv file with the dumped yuv file f265.yuv
+
+        \
+
+(20201117) build/windows (windows env)
+--------------------------------------
 
 *   function
 
-    #.  build environment for windows
+    #.  generate the executable file
 
     \
 
@@ -106,9 +113,9 @@ Script Usage
 
         \
 
-    #.  set the stack reserve size of f265 to 10000000
+    #.  *set the stack reserve size of f265 to 10000000*
 
-        .. image:: buildWindowsStep6b.png
+        thanks to the pointer-type varibles adopted now, this step is no longer necessary.
 
         \
 
@@ -124,80 +131,100 @@ Script Usage
 
         \
 
-(20200917) script/run
----------------------
+(20201117) doc/doxygen (linux env)
+----------------------------------
 
-    *   function
+*   function
 
-        #.  automatically run f265 according to your lists (sequence × qp)
-        #.  calculate and note down md5sum of hevc files
-        #.  compare reconstructed and decoded pictures and mark any mismatch
-        #.  extract PSNR and bit rate information
-        #.  calculate B-D rate
+    *   generate documents
 
-        \
+*   pre-requests
 
-    *   pre-requests
+    *   doxygen (my version is 1.8.13)
+    *   graphviz
 
-        #.  gcc, g++ (my version is 7.5.0)
-        #.  make     (my version is 4.1)
-        #.  cmake    (my version is 3.10.2)
-        #.  md5sum   (my version is 8.28)
-        #.  ffmpeg   (my version is 3.4.6)
-        #.  python3  (my version is 3.6.9)
+*   steps
+
+    *   execute "./doxygen.sh"
+
+        .. image:: docDoxygenStep1.png
 
         \
 
-    *   steps
+(20200917) script/run (linux env)
+---------------------------------
 
-        #.  modify f265.sh according to your requests, for example
+*   function
 
-            *   NAME_DIR_SEQ="/mnt/e/DOWNLOAD/SEQUENCE/bitDepth_8"
+    #.  automatically run f265 according to your lists (sequence × qp)
+    #.  calculate and note down md5sum of hevc files
+    #.  compare reconstructed and decoded pictures and mark any mismatch
+    #.  extract PSNR and bit rate information
+    #.  calculate B-D rate
 
-            \
+    \
 
-        #.  execute "make run"
+*   pre-requests
 
-            .. image:: scriptRunStep2.png
+    #.  gcc, g++ (my version is 7.5.0)
+    #.  make     (my version is 4.1)
+    #.  cmake    (my version is 3.10.2)
+    #.  md5sum   (my version is 8.28)
+    #.  ffmpeg   (my version is 3.4.6)
+    #.  python3  (my version is 3.6.9)
 
-            \
+    \
 
-(20200917) script/showDiff
---------------------------
+*   steps
 
-    *   function
+    #.  modify f265.sh according to your requests, for example
 
-        #.  compare two pictures
+        *   NAME_DIR_SEQ="/mnt/e/DOWNLOAD/SEQUENCE/bitDepth_8"
 
         \
 
-    *   pre-requests
+    #.  execute "make run"
 
-        #.  matlab
+        .. image:: scriptRunStep2.png
 
         \
 
-    *   steps
+(20200917) script/showDiff (matlab env)
+---------------------------------------
 
-        #.  modify showDiff.m according to your requests, for example
+*   function
 
-            *   A_FILE       = '../run/sessionTest/dump/BasketballPass_22/f265.tmp.yuv';
-            *   B_FILE       = '../run/sessionTest/dump/BasketballPass_22/f265.yuv';
+    #.  compare two pictures
 
-            \
+    \
 
-        #.  execute showDiff.m
+*   pre-requests
 
-            if no mismatch is detected, it will automatically run to the end
+    #.  matlab (my version is 2019b)
 
-            .. image:: scriptShowDiffStep2a.png
+    \
 
-            if mismatch is detected, it will stop
+*   steps
 
-            .. image:: scriptShowDiffStep2b.png
+    #.  modify showDiff.m according to your requests, for example
 
-            and you can check the mismatch
+        *   A_FILE       = '../run/sessionTest/dump/BasketballPass_22/f265.tmp.yuv';
+        *   B_FILE       = '../run/sessionTest/dump/BasketballPass_22/f265.yuv';
 
-            .. image:: scriptShowDiffStep2c.png
+        \
 
-            \
+    #.  execute showDiff.m
+
+        if no mismatch is detected, it will automatically run to the end
+
+        .. image:: scriptShowDiffStep2a.png
+
+        if mismatch is detected, it will stop
+
+        .. image:: scriptShowDiffStep2b.png
+
+        and you can check the mismatch
+
+        .. image:: scriptShowDiffStep2c.png
+
+        \
