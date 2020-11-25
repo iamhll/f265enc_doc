@@ -12,8 +12,8 @@ Before Everything
 
     Please get the following items ready before you start to work.
 
-(20200917) WSL
---------------
+(20201125) WSL (windows and linux env)
+--------------------------------------
 
     #.  enable developer mode
 
@@ -64,6 +64,8 @@ Before Everything
 
                 lsb_release -c
 
+            \
+
         *   execute the following commands
 
             ::
@@ -93,11 +95,11 @@ Before Everything
 
         ::
 
-            sudo apt-get install make cmake gcc g++ ffmpeg python3 python3-pip --fix-missing
+            sudo apt-get install cmake ffmpeg g++ gcc gitk make python3 python3-pip --fix-missing
             sudo pip3 install numpy
 
-(20200917) Git
---------------
+(20201125) Git (windows env)
+----------------------------
 
     #.  install Git and TortoiseGit
 
@@ -110,8 +112,8 @@ Before Everything
         \
 
 
-(20200917) VS code
-------------------
+(20201125) VS code (windows env)
+--------------------------------
 
     #.  intall VS code
 
