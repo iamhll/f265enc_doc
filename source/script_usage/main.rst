@@ -138,10 +138,14 @@ Script Usage
 
     *   generate documents
 
+    \
+
 *   pre-requests
 
     *   doxygen (my version is 1.8.13)
     *   graphviz
+
+    \
 
 *   steps
 
