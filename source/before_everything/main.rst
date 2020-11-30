@@ -95,8 +95,8 @@ Before Everything
 
         ::
 
-            sudo apt-get install cmake ffmpeg g++ gcc gitk make python3 python3-pip --fix-missing
-            sudo pip3 install numpy
+            sudo apt-get install cmake ffmpeg g++ gcc gitk make md5sum python3 python3-pip tree --fix-missing
+            sudo pip3 install numpy sphinx
 
 (20201125) Git (windows env)
 ----------------------------
