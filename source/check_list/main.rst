@@ -44,7 +44,7 @@ Check List
     |         |           |                                             | |   **cd ref/linux; ./run.sh**                                                                            |
     |         |           +---------------------------------------------+-----------------------------------------------------------------------------------------------------------+
     |         |           | push                                        | | **owner must make sure the results also keep the same, if decision logic keeps the same:**              |
-    |         |           |                                             | |   **cd script/run; make run; diff runs.log sessionTest/runs.log**                                       |
+    |         |           |                                             | |   **cd script/run; make run; diff runs.log sessionTest/dump/runs.log**                                  |
     |         |           |                                             | | **owner should note down the B-D rate log, if decision logic is optimized:**                            |
     |         |           |                                             | |   **modify the DATA_PRD_INTRA in script/run/f265.sh according to your target frame type**               |
     |         |           |                                             | |   **cd script/run; make run; cp sessionTest/dump/*.log ../../doc/performance**                          |
