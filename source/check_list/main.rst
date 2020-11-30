@@ -47,7 +47,7 @@ Check List
     |         |           |                                             | |   **cd script/run; make run; diff runs.log sessionTest/runs.log**                                       |
     |         |           |                                             | | **owner should note down the B-D rate log, if decision logic is optimized:**                            |
     |         |           |                                             | |   **modify the DATA_PRD_INTRA in script/run/f265.sh according to your target frame type**               |
-    |         |           |                                             | |   **cd script/run; make run; cp sessionTest/bdRate.log ../../doc/performance/bdRate.log**               |
+    |         |           |                                             | |   **cd script/run; make run; cp sessionTest/dump/*.log ../../doc/performance**                          |
     |         |           +---------------------------------------------+-----------------------------------------------------------------------------------------------------------+
     |         |           | feedback                                    | | if one task is finished,                                                                                |
     |         |           |                                             | |   owner should notify the corresponding manager as quick as possible                                    |
