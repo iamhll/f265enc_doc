@@ -12,10 +12,10 @@ Before Everything
 
     Please get the following items ready before you start to work.
 
-(20201125) WSL (windows and linux env)
+(20211026) WSL (windows and linux env)
 --------------------------------------
 
-    #.  enable developer mode
+    #.  enable the developer mode
 
         .. image:: WSL_enableDevMod.png
 
@@ -27,7 +27,7 @@ Before Everything
 
         \
 
-    #.  enable WSL function
+    #.  enable the WSL function
 
         .. image:: WSL_enableWSL.png
 
@@ -39,7 +39,7 @@ Before Everything
 
         \
 
-    #.  change source of apt
+    #.  change the source of apt
 
         *   open file /etc/apt/sources.list with root privilege.
         *   replace the original contents with the following ones:
@@ -57,8 +57,8 @@ Before Everything
                 deb-src http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
                 deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
 
-            please make sure that the codename (bionic) of source is indentical with the one of your system,
-            which could be checked with command
+            please replace the codename (bionic) of source with that of your system,
+            which could be checked with the following command
 
             ::
 
@@ -76,10 +76,10 @@ Before Everything
 
         \
 
-    #.  change source of pip
+    #.  change the source of pip
 
         *   create file ~/.pip/pip.config
-        *   enter the following contents
+        *   add the following statements
 
             ::
 
@@ -98,7 +98,8 @@ Before Everything
             sudo apt-get install cmake ffmpeg g++ gcc gitk make python3 python3-pip tree --fix-missing
             sudo pip3 install numpy sphinx
 
-(20201125) Git (windows env)
+
+(20211026) Git (windows env)
 ----------------------------
 
     #.  install Git and TortoiseGit
@@ -112,10 +113,10 @@ Before Everything
         \
 
 
-(20201125) VS code (windows env)
+(20211026) VS code (windows env)
 --------------------------------
 
-    #.  intall VS code
+    #.  install VS code
 
         ..  image:: VSCode_install.png
 
@@ -124,13 +125,12 @@ Before Everything
     #.  install some extensions
 
         *   Better Comments
-        *   Binary
         *   C/C++
-        *   Chinese (SImplified) Language Pack for Visual Studio code
+        *   Chinese (Simplified) Language Pack for Visual Studio code
         *   Remote - WSL
-        *   Excel Viewer
         *   Git History
         *   Matlab
+        *   Jupyter
         *   Python
         *   TCL
         *   Verilog-HDL/SystemVerilog/Bluespec SystemVerilog
@@ -147,7 +147,8 @@ Before Everything
 
         \
 
-(20200917) Xming
+
+(20211026) Xming
 ----------------
 
     #.  install Xming
@@ -156,10 +157,10 @@ Before Everything
 
         \
 
-    #.  set Display
+    #.  set the global variable DISPLAY
 
         *   open ~/.bashrc with root privilege
-        *   add the following command to this file
+        *   add the following statement to this file
 
             ::
 
