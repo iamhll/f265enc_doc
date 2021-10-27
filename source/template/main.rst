@@ -13,8 +13,7 @@ Template
     |   For a detailed template, please refer to /src/enc/enc_knl/enc_rmd.
     |   For a rough template, please check the following contents.
 
-
-(20201117) Header
+(20211026) Header
 -----------------
 
     ::
@@ -65,44 +64,64 @@ Template
         // ???
         class ???
         {
+        //--- PRIVATE ENUMERATOR ---------------
         private:
-        //--- PRIVATE TYPE ---------------------
-            // enum
-            enum class ???_t = {
-                ???
-            };
+            // enm???_t
+                enum class enm???_t = {
+                    ???
+                };
 
-            // typedef
-            typedef ???    ???;
+
+        //--- PRIVATE TYPE ---------------------
+        private:
+            // ???_t
+                typedef ???_t    ???;
 
 
         //--- PRIVATE TABLE --------------------
-            // static
-            const int s_???[?] = {
-                ???
-            };
+        private:
+            // s_???
+                const int s_???[?] = {
+                    ???
+                };
 
 
         //--- PRIVATE VARIABLE -----------------
+        private:
             // ???
-            ??? ???;
+                ??? m_???;
 
 
         //--- PRIVATE FUNCTION -----------------
+        private:
             // ???
-            ??? ???(??? ???);
+                ??? ???(??? ???);
 
 
-        public:
+        //--- PRIVATE INLINE -------------------
+        private:
+            #include "???"
+
+
         //--- PUBLIC FUNCTION ------------------
+        public:
             // ???
-            ??? ???(??? ???);
+                ??? ???(??? ???);
+
+
+        //--- PUBLIC INLINE --------------------
+        public:
+            // ???
+                inline ??? ???(??? ???)
+                {
+                    ???
+                };
         };
 
         #endif /* __XK265_???_HPP_ */
 
 
-(20201117) Source
+(20211026) Source
 -----------------
 
     ::
@@ -144,6 +163,8 @@ Template
 
         //*** FUNCTION *****************************************************************
         // ???
-        ??? ???::???(??? ???)
-        {   ???
+        ??? ???::???(??? ???
+        ??? ???)
+        {
+            ???
         }
