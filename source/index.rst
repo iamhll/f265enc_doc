@@ -16,7 +16,7 @@ Welcome to f265enc's documentation!
     script_usage/main
     coding_style/main
     template/main
-    structure/main
+    .. structure/main
     check_list/main
     how_to/main
 
