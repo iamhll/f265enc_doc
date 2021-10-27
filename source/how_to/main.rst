@@ -10,14 +10,14 @@
 How-To
 ======
 
-(20200922) How to Diff with an Arbitary Commitment
+(20211026) How to Diff with an Arbitary Commit
 --------------------------------------------------
 
     #.  use diff
 
         ::
 
-            git diff "SHA1 ID of the commitment you want to diff with"
+            git diff "SHA1 ID of the commit you want to diff with"
 
         \
 
@@ -25,19 +25,18 @@ How-To
 
         ::
 
-            "commit your changes if necessary"
-            git reset "SHA1 ID of the commitment you want to diff with"
-            "make some edit"
-            git reset "SHA1 ID of the commitment you were working with"
+            git reset "SHA1 ID of the commit you were working with"
+
+        **do not forget to reset back with git reset ORIGIN**
 
         \
 
 
-(20200924) How to Get a Simple History
+(20211026) How to Get a Simple History
 --------------------------------------
 
     #.  |   press F4 after "gitk --all" is executed
-        |   (or click "View" and choose "Edit wiew..." after gitk --all is executed)
+        |   (or click "View" and choose "Edit view..." after gitk --all is executed)
         |   click "Simple history"
 
         .. image:: howToGetASimpleHistory_edit.png
@@ -53,11 +52,11 @@ How-To
     #.  "gitk --all --simplify-by-decoration" works as well
 
 
-(20200917) How to Rename
+(20211026) How to Rename
 ------------------------
 
-    #.  |   put cursor on the variable or function to be renamed and press F2
-        |   (or right click the variable or function to be renamed and choose rename)
+    #.  |   put cursor on the variable or function you want rename and press F2
+        |   (or right click on the variable or function you want rename and choose rename)
         |   enter a new name and press "enter"
 
         .. image:: howToRenameVariables_F2.png
@@ -70,14 +69,14 @@ How-To
 
         \
 
-    #.  do not forget to save changes
+    #.  do not forget to save those changes
 
         .. image:: howToRenameVariables_save.png
 
         \
 
 
-(20200917) How to Revert Partially
+(20211026) How to Revert Partially
 ----------------------------------
 
     #.  open the "diff"
@@ -86,20 +85,20 @@ How-To
 
         \
 
-    #.  right click the changes to be revereted and choose "revert the selected changes"
+    #.  right click on the changes you want to revert and choose "revert the selected changes"
 
         .. image:: howToRevertChangePartially_revert.png
 
         \
 
-    #.  do not forget to save changes
+    #.  do not forget to save those changes
 
         .. image:: howToRevertChangePartially_save.png
 
         \
 
 
-(20200923) How to Synchronize with the Remote
+(20211026) How to Synchronize with the Remote
 ---------------------------------------------
 
     #.  fetch and prune
@@ -119,7 +118,7 @@ How-To
 
         \
 
-    #.  if the remote is right
+    #.  if you want the remote only
 
         ::
 
@@ -127,7 +126,7 @@ How-To
 
         \
 
-    #.  if your local is right
+    #.  if you want the local only
 
         ::
 
@@ -135,17 +134,28 @@ How-To
 
         \
 
-    #.  if both the remote and your local are right
+    #.  if you want both of them
 
         ::
 
-            git pull --rebase [origin "the branch you want to synchronize"]
+            git pull --rebase
+
+        you can also
+
+        ::
+
+            git rebase origin/"the branch you want to synchronize"
+
+        then
+
+        ::
+
             git push [origin "the branch you want to synchronize"]
 
         \
 
 
-(20200929) How to Work on the Same Branch
+(20211026) How to Work on the Same Branch
 -----------------------------------------
 
 Flow
@@ -169,7 +179,7 @@ Flow
 
         \
 
-    #.  fix conflict until cleared
+    #.  fix any conflict encountered
 
         ::
 
@@ -190,65 +200,65 @@ Flow
 Example
 .......
 
-    #.  as shown, two local depositories "a" and "b" are pointed to the same remote
+    #.  as shown, two local depositories "a" and "b" point to the same remote.
 
         .. image:: howToWorkOnTheSameBranch_twoLocal.png
 
         \
 
-    #.  then depository "a" edited, added and committed
+    #.  depository "a" is edited, added and committed.
 
         .. image:: howToWorkOnTheSameBranch_commitByA.png
 
         \
 
-    #.  then depository "a" edited, added and committed more files
+    #.  depository "a" is edited, added and committed again.
 
         .. image:: howToWorkOnTheSameBranch_moreCommitsByA.png
 
         \
 
-    #.  then depository "a" pushed.
-        fortunately, no one pushed before "a", so it works.
+    #.  commits in depository "a" are pushed.
+        fortunately, no one has pushed before, so it works.
 
         .. image:: howToWorkOnTheSameBranch_pushByA.png 
 
         \
 
-    #.  meanwhile, depository "b" edited, added and committed many times.
-        and the commits are about the same file changed by "a".
+    #.  meanwhile, depository "b" is edited, added and committed.
+        and the commits are about the same file changed in depository "a".
 
         .. image:: howToWorkOnTheSameBranch_manyCommitsByB.png
 
         \
 
-    #.  as a wiser commiter, depository "b" pulled with rebase before pushing.
+    #.  since the remote is changed by depository "a", depository "b" pulled with rebase.
         as expected, conflicts are reported
 
         .. image:: howToWorkOnTheSameBranch_pullByB.png
 
         \
 
-    #.  for the first commitment, depository "b" chose to use both of them and go on with "git rebase --continue"
+    #.  for the first commit, depository "b" used both of them and go on with "git rebase --continue"
 
         .. image:: howToWorkOnTheSameBranch_rebaseContinueByB.png
 
         \
 
-    #.  for the second commitment, depository "b" chose to use his one and go on with "git rebase --continue"
-        for the first commitment, depository "b" chose to use their one and go on with "git rebase --ski["
+    #.  for the second commit, depository "b" used his one and go on with "git rebase --continue"
+        for the first commit, depository "b" used their one and go on with "git rebase --skip"
 
         .. image:: howToWorkOnTheSameBranch_rebaseSkipByB.png
 
         \
 
-    #.  after all conflicts are resolved, depository "b" pushed
+    #.  after all conflicts are resolved, commits depository "b" are pushed
 
         .. image:: howToWorkOnTheSameBranch_pushByB.png
 
         \
 
-    #.  now depository "a" could pull
+    #.  now depository "a" could pull directly
 
         .. image:: howToWorkOnTheSameBranch_pullByA.png
 
