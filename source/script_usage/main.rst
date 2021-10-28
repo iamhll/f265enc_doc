@@ -113,7 +113,8 @@ Script Usage
 
             \
 
-        #.  add "-c ..\\..\\script\\run\\xkcdc.cfg" to the command-line parameters of xkcdc
+        #.  add "-c ../../script/run/xkcdc.cfg" to the command-line parameters of xkcdc
+            (both slash and backslash can be recognized)
 
             .. image:: buildWindowsStep5a.png
             .. image:: buildWindowsStep5b.png

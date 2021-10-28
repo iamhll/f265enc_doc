@@ -125,11 +125,11 @@ Introduction
         ================================== ============== ===================================================================
          Directory                          Phase          Status (check function, coding style and anything you may notice)
         ================================== ============== ===================================================================
-         /build/linux                       phase 003      to be checked by Li Tingting
-         /build/windows                     phase 003      to be checked by Li Tingting
+         /build/linux                       phase 003      checked by Li Tingting on 2021.10.28
+         /build/windows                     phase 003      checked by Li Tingting on 2021.10.28
          \-
-         /doc/performance                   phase 003      to be checked by Huang Leilei
-         /doc/doxygen                       phase 003      to be checked by Huang Leilei
+         /doc/performance                   phase 003      checked by Huang Leilei on 2021.10.28
+         /doc/doxygen                       phase 003      checked by Huang Leilei on 2021.10.28
          /doc/description/RFC*              unmaintained   \\
          /doc/description/FTH*              unmaintained   \\
          /doc/description/RMD*              unmaintained   \\
@@ -144,21 +144,21 @@ Introduction
          /doc/conclusion                    phase 003      \\
          \-
          /script/anaDatCstSecInRDO          unmaintained   \\
-         /script/anaDatCstPuFulDBstInIME    phase 003      to be checked by Huang Leilei
-         /script/anaDatCstPuInterFulInFME   phase 003      to be checked by Huang Leilei
-         /script/anaDatCstPuIntraFulInRMD   phase 003      to be checked by Huang Leilei
-         /script/anaDatCstSadrInRMDnFME     phase 003      to be checked by Huang Leilei
-         /script/anaDatFmvPuFulInFME        phase 003      to be checked by Huang Leilei
-         /script/anaLogXkcdc                phase 003      to be checked by Huang Leilei
-         /script/anaYuvForDiff              phase 003      to be checked by Huang Leilei
-         /script/anaYuvForPsnr              phase 003      to be checked by Huang Leilei
+         /script/anaDatCstPuFulDBstInIME    phase 003      checked by Huang Leilei on 2021.10.28
+         /script/anaDatCstPuInterFulInFME   phase 003      checked by Huang Leilei on 2021.10.28
+         /script/anaDatCstPuIntraFulInRMD   phase 003      checked by Huang Leilei on 2021.10.28
+         /script/anaDatCstSadrInRMDnFME     phase 003      checked by Huang Leilei on 2021.10.28
+         /script/anaDatFmvPuFulInFME        phase 003      checked by Huang Leilei on 2021.10.28
+         /script/anaLogXkcdc                phase 003      checked by Huang Leilei on 2021.10.28
+         /script/anaYuvForDiff              phase 003      checked by Huang Leilei on 2021.10.28
+         /script/anaYuvForPsnr              phase 003      checked by Huang Leilei on 2021.10.28
          /script/getBdRate                  phase 003      \\
-         /script/getNasm                    phase 003      to be checked by Liu Chang
-         /script/getYFromYuv420p            phase 003      to be checked by Liu Chang
-         /script/getYuv100to131pFromYuv     phase 003      to be checked by Liu Chang
-         /script/getYuv420p10leFromYuv420p  phase 003      to be checked by Liu Chang
-         /script/getYuv444pFromYuv420p      phase 003      to be checked by Liu Chang
-         /script/run                        phase 003      to be checked by Li Tingting
+         /script/getNasm                    phase 003      checked by Liu Chang on 2021.10.28
+         /script/getYFromYuv420p            phase 003      checked by Liu Chang on 2021.10.28
+         /script/getYuv100to131pFromYuv     phase 003      checked by Liu Chang on 2021.10.28
+         /script/getYuv420p10leFromYuv420p  phase 003      checked by Liu Chang on 2021.10.28
+         /script/getYuv444pFromYuv420p      phase 003      checked by Liu Chang on 2021.10.28
+         /script/run                        phase 003      checked by Li Tingting on 2021.10.28
          /script/runChipsMedia              phase 003      to be checked by Li Tingting
          /script/runHM                      phase 003      to be checked by Li Tingting
          /script/runRfc                     unmaintained   \\
@@ -166,27 +166,27 @@ Introduction
          /script/runX264                    phase 003      to be checked by Li Tingting
          /script/runX265                    phase 003      to be checked by Li Tingting
          \-
-         /src/sys/cfg                       phase 003      to be checked by Hou Bingjing
-         /src/common/lcu                    phase 003      to be checked by Hou Bingjing
-         /src/common/rfc                    phase 003      to be checked by Zheng Qi
-         /src/common/vec                    phase 003      to be checked by Liu Chao
-         /src/common/x86                    phase 003      to be checked by Liu Chao
-         /src/common/common*                phase 003      to be checked by Hou Bingjing
-         /src/enc/enc_top.cpp               phase 003      to be checked by Huang Leilei
-         /src/enc/enc_knl/enc_knl.cpp       phase 003      to be checked by Huang Leilei
+         /src/sys/cfg                       phase 003      checked by Hou Bingjing on 2021.10.28
+         /src/common/lcu                    phase 003      checked by Hou Bingjing on 2021.10.28
+         /src/common/rfc                    phase 003      checked by Zheng Qi on 2021.10.28
+         /src/common/vec                    phase 003      checked by Liu Chao on 2021.10.28
+         /src/common/x86                    phase 003      checked by Liu Chao on 2021.10.28
+         /src/common/common*                phase 003      checked by Hou Bingjing on 2021.10.28
+         /src/enc/enc_top.cpp               phase 003      checked by Huang Leilei on 2021.10.28
+         /src/enc/enc_knl/enc_knl.cpp       phase 003      checked by Huang Leilei on 2021.10.28
          /src/enc/enc_knl/enc_fth           phase 003      to be checked by Li Tingting
-         /src/enc/enc_knl/enc_rmd           phase 003      to be checked by Liu Chang
+         /src/enc/enc_knl/enc_rmd           phase 003      checked by Liu Chang on 2021.10.31
          /src/enc/enc_knl/enc_ime           phase 003      to be checked by Li Tingting
          /src/enc/enc_knl/enc_fme           phase 003      to be checked by Li Tingting
-         /src/enc/enc_knl/enc_rdo           phase 003      to be checked by Liu Chang
-         /src/enc/enc_knl/enc_rec           phase 003      to be checked by Liu Chang
-         /src/enc/enc_knl/enc_ilf/\*Dbf\*   phase 003      to be checked by Hou Bingjing
+         /src/enc/enc_knl/enc_rdo           phase 003      checked by Liu Chang on 2021.10.31
+         /src/enc/enc_knl/enc_rec           phase 003      checked by Liu Chang on 2021.10.31
+         /src/enc/enc_knl/enc_ilf/\*Dbf\*   phase 003      checked by Hou Bingjing on 2021.10.28
          /src/enc/enc_knl/enc_ilf/\*Sao\*   unmaintained   \\
-         /src/enc/enc_knl/enc_e_c           phase 003      to be checked by Li Wei
-         /src/enc/enc_knl/AVC_enc_e_c       phase 003      to be checked by Li Wei
+         /src/enc/enc_knl/enc_e_c           phase 003      checked by Li Wei on 2021.10.27
+         /src/enc/enc_knl/AVC_enc_e_c       phase 003      checked by Li Wei on 2021.10.27
          /src/enc/enc_knl/enc_dmp           phase 003      to be checked by Li Tingting
-         /src/dec/dec_knl/dec_e_d           phase 003      to be checked by Li Wei
-         /src/common/common.cpp             phase 003      to be checked by Hou Bingjing
+         /src/dec/dec_knl/dec_e_d           phase 003      checked by Li Wei on 2021.10.27
+         /src/common/common.cpp             phase 003      checked by Hou Bingjing on 2021.10.28
         ================================== ============== ===================================================================
 
 
@@ -200,26 +200,26 @@ Introduction
         ======================================= =========== ==================================================
          Funcrion Patch                          Phase       Status (check setting, function and performance)
         ======================================= =========== ==================================================
-         patch/src/optimizeBSlice/master         phase 003   to be checked by Liu Chang
-         patch/src/optimizeH264/master           phase 003   to be checked by Zhang Chao
-         patch/src/optimizeMain10/master         phase 003   to be checked by Zou Yuliang
-         patch/src/optimizeMain444/master        phase 003   to be checked by Zou Yuliang
-         patch/src/optimizeNSTD/master           phase 003   to be checked by Zou Yuliang
-         patch/src/optimizeROI/master            phase 003   to be checked by Liu Chang
-         patch/src/optimizeRcFrameRatio/master   phase 003   to be checked by Li Tingting
-         patch/src/optimizeRcLcuSADR/master      phase 003   to be checked by Huang Leilei
-         patch/src/optimizeRcLcuSAMV/master      phase 003   to be checked by Huang Leilei
-         patch/src/optimizeRcLcuSATD/master      phase 003   to be checked by Huang Leilei
-         patch/src/optimizeRcLcuSmooth/master    phase 003   to be checked by Li Tingting
-         patch/src/optimizeRdoq/master           phase 003   to be checked by Hou Bingjing
-         patch/src/optimizeRect/master           phase 003   to be checked by Liu Chang
-         patch/src/optimizeRfc/master            phase 003   to be checked by Zheng Qi
-         patch/src/optimizeRunTime/master        phase 003   to be checked by Huang Leilei
-         patch/src/optimizeSbh/master            phase 003   to be checked by Hou Bingjing
-         patch/src/optimizeSizLcu16/master       phase 003   to be checked by Huang Leilei
-         patch/src/optimizeSizLcu64/master       phase 003   to be checked by Huang Leilei
-         patch/src/optimizeSkpTsf/master         phase 003   to be checked by Hou Bingjing
-         patch/src/optimizeYOnly/master          phase 003   to be checked by Liu Chang
+         patch/src/optimizeBSlice/master         phase 003   checked by Liu Chang on 2021.10.28
+         patch/src/optimizeH264/master           phase 003   checked by Zhang Chao on 2021.11.01
+         patch/src/optimizeMain10/master         phase 003   checked by Zou Yuliang on 2021.10.29
+         patch/src/optimizeMain444/master        phase 003   checked by Zou Yuliang on 2021.10.29
+         patch/src/optimizeNSTD/master           phase 003   checked by Zou Yuliang on 2021.10.29
+         patch/src/optimizeROI/master            phase 003   checked by Liu Chang on 2021.10.28
+         patch/src/optimizeRcFrameRatio/master   phase 003   checked by Li Tingting on 2021.10.28
+         patch/src/optimizeRcLcuSADR/master      phase 003   checked by Huang Leilei on 2021.10.30
+         patch/src/optimizeRcLcuSAMV/master      phase 003   checked by Huang Leilei on 2021.10.29
+         patch/src/optimizeRcLcuSATD/master      phase 003   checked by Huang Leilei on 2021.10.29
+         patch/src/optimizeRcLcuSmooth/master    phase 003   checked by Li Tingting on 2021.10.28
+         patch/src/optimizeRdoq/master           phase 003   checked by Hou Bingjing on 2021.10.28
+         patch/src/optimizeRect/master           phase 003   checked by Liu Chang on 2021.10.28
+         patch/src/optimizeRfc/master            phase 003   checked by Zheng Qi on 2021.10.28
+         patch/src/optimizeRunTime/master        phase 003   checked by Huang Leilei on 2021.10.29
+         patch/src/optimizeSbh/master            phase 003   checked by Hou Bingjing on 2021.10.28
+         patch/src/optimizeSizLcu16/master       phase 003   checked by Huang Leilei on 2021.10.29
+         patch/src/optimizeSizLcu64/master       phase 003   checked by Huang Leilei on 2021.10.29
+         patch/src/optimizeSkpTsf/master         phase 003   checked by Hou Bingjing on 2021.10.28
+         patch/src/optimizeYOnly/master          phase 003   checked by Liu Chang on 2021.10.28
         ======================================= =========== ==================================================
 
 
@@ -281,7 +281,7 @@ Introduction
          20210715 - 20210718   fix rectangle related bug   bugfix/src/000/fixRect/master               /src               Huang Leilei
          20210715 - 20210718   fix delta qp related bug    bugfix/src/001/continueOfFixRect/master     /src/dec/dec_knl   Zou Yuliang
          20210720 - 20210721   fix rectangle related bug   bugfix/src/001/continueOfFixRect/master     /src               Huang Leilei
-         20210721 - 20210805   add transform skip          update/src/common/003/addSkpTsf/master      /src/common        Hou Bingjing
+         20210721 - 20210805   add transform skip          update/src/common/003/addSkpTsf/master      /src/common        Liu Chao
         ===================== =========================== =========================================== ================== ==============
 
     \

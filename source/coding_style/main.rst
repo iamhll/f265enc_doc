@@ -106,7 +106,7 @@ Coding Style
 
     #.  Spaces
 
-        use a space after the follwing keywords
+        use a space after the following keywords
 
         ::
 
@@ -139,7 +139,7 @@ Coding Style
 
         \
 
-        use one space on each side of the follwing operators
+        use one space on each side of the following operators
         (where, &, \*, ... are used as binary or ternary operators)
 
         ::
