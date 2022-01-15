@@ -12,7 +12,7 @@ Before Everything
 
     Please get the following items ready before you start to work.
 
-(20211026) WSL (windows and linux env)
+(20220115) WSL (windows and linux env)
 --------------------------------------
 
     #.  enable the developer mode
@@ -78,7 +78,7 @@ Before Everything
 
     #.  change the source of pip
 
-        *   create file ~/.pip/pip.config
+        *   create file ~/.pip/pip.conf
         *   add the following statements
 
             ::
